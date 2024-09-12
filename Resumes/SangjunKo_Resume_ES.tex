@@ -1,0 +1,219 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
+    Urbana, Illinois 61801 
+    | \href{mailto:sangjun2@illinois.edu}{sangjun2@illinois.edu}
+    | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
+
+	  
+\end{center}
+
+%==== Education ====%
+\header{\textbf{Educación}}
+\textbf{Universidad de Illinois en Urbana-Champaign}\hfill Champaign, Illinois \\
+Licenciatura en Ciencias en Estadística (CGPA: 3.83/4.00) \hfill Enero 2023 - Mayo 2025 (Esperado) \\ 
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Menor en Matemáticas
+    \end{itemize}
+
+\textbf{Instituto Conjunto Universidad de Michigan-Universidad Jiao Tong de Shanghai}\hfill Shanghai, China\\
+Licenciatura en Ingeniería Mecánica (CGPA: 3.50/4.00)\hfill Septiembre 2019 - Diciembre 2020\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Beca de Primera Clase
+    \end{itemize}
+
+% \vspace{2mm}
+
+\header{\textbf{Experiencia Laboral}}
+\vspace{1mm}
+
+\textbf{Tecnologías Aplicadas para el Aprendizaje en Artes y Ciencias (ATLAS)}
+\hfill Champaign, Illinois\\
+\textit{Líder del Equipo de Pasantes de IA/ML} \hfill Enero 2024 - Presente\\
+\setlist{nolistsep}
+
+    \begin{itemize}[noitemsep]
+        \item Lidero un equipo de 5 pasantes.
+        \item Desarrolla modelos predictivos de aprendizaje automático con grandes conjuntos de datos (100,000+ entradas) utilizando Python.
+        \item Utilizo técnicas avanzadas: XGBoost, Random Forests, Regresión, Redes Neuronales, BERT, Transformers.
+        \item Colaboro estrechamente con 3 coordinadores en reuniones semanales para alinear los objetivos del proyecto y hacer seguimiento al progreso.
+    \end{itemize}
+
+\vspace{1mm}
+
+\textbf{STAT107 Data Science Discovery} 
+\hfill Champaign, Illinois\\
+\textit{Asistente de Curso} \hfill Agosto 2023 - Presente\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Facilito el aprendizaje para más de 1000 estudiantes, ayudándoles a comprender conceptos fundamentales de ciencia de datos a través de sesiones interactivas y aclaraciones sobre materiales del curso.
+    \item Gestiono Git para modificaciones en la plataforma de aprendizaje, beneficiando a más de 1000 estudiantes; creo, edito y reviso materiales del curso.
+    \item Colaboro con un equipo de más de 100 miembros del personal y 2 profesores en reuniones semanales.
+    \end{itemize}
+
+\vspace{1mm}
+
+\textbf{KM Internacional S.A.} \hfill Managua, Nicaragua\\
+\textit{Pasante} \hfill Mayo 2023 - Agosto 2023\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+	\item Supervisé la gestión integral de inventarios y optimicé tareas administrativas para una pequeña empresa textil.
+    \item Lideré un equipo de tres trabajadores para lograr una precisión del 98\% en el mantenimiento de registros y una reducción del 15\% en los costos operativos.
+    \end{itemize}
+
+\vspace*{1mm}
+
+\header{\textbf{Proyectos}}
+
+\textbf{3er Lugar, Desafío de Artículos Estudiantiles: CIC 2024} \hfill Septiembre 2024 \\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Analicé los impactos socioeconómicos y de salud mental del COVID-19 en México, identificando que el 42\% de las mujeres y el 40\% de los jóvenes perdieron su empleo.
+        \item Propuse intervenciones basadas en datos para apoyar a los grupos vulnerables a través de análisis geoespacial y estadístico.
+    \end{itemize}
+
+\textbf{Modelo de Aprendizaje Automático del Titanic}\hfill{Febrero 2024}\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Desarrollé un modelo predictivo con un 80\% de precisión usando Python para determinar factores que influyen en las tasas de supervivencia en el desastre del Titanic utilizando datos de pasajeros.
+    \item Identifiqué que el sexo y la clase del pasajero son factores significativos de supervivencia a través de un análisis de importancia de características.
+\end{itemize}
+
+\textbf{Pronóstico de Estudiantes Internacionales}\hfill{Abril 2024}\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Procesé y analicé datos a gran escala sobre la matrícula de estudiantes (más de 100,000 entradas) de UIUC para identificar tendencias y patrones.
+    \item Sugerí la optimización de la asignación de recursos mediante la previsión del número de estudiantes internacionales utilizando regresión lineal y procesos deterministas.
+\end{itemize}
+
+\textbf{Detección de Paráfrasis}\hfill{Julio 2024}\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Alcancé una precisión de más del 90\% en la detección de paráfrasis utilizando modelos BERT, RoBERTa y SBERT en el conjunto de datos MRPC.
+    \item Desarrollé una interfaz Gradio para la detección de paráfrasis en tiempo real, facilitando una evaluación más sencilla de similitudes textuales para casos de uso académico y empresarial.
+\end{itemize}
+
+\vspace*{1mm}
+
+
+\header{\textbf{Habilidades}}
+\begin{tabular}{ l l }
+    Idiomas: & Inglés (Fluido), Español (Fluido), Coreano (Fluido), Francés (Básico), Chino (Básico)              \\
+    Computación: & Python (Avanzado): Pandas, NumPy, Scikit-learn, TensorFlow, 
+    NLTK, Matplotlib, Seaborn, \\
+    & BERT, Random Forest, XGBoost, Gradio\\
+    & R (Intermedio): Tidyverse, ggplot2, dplyr, caret\\
+    & Git (Intermedio), Tableau (Básico), SQL (Básico), Office (Avanzado)\\
+    Certificados: & Data Science DISCOVERY, Data Science Certificate, 
+    Coursera Business Analytics Certificate
+\end{tabular}
+
+
+\vspace{1mm}
+
+
+\header{\textbf{Servicio Comunitario y Actividades Extracurriculares}}
+
+\textbf{Tesorero en Performance UIUC Touch}\hfill Febrero 2023 - Mayo 2024\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Planificar estratégicamente y ejecutar 10 iniciativas de recaudación 
+    de fondos para apoyar actividades del equipo, disfraces,
+    y gastos de viaje, resultando en un aumento del 30\% 
+    en los fondos disponibles en comparación con el año anterior
+\end{itemize}
+
+{\textbf{Traductor para el Ejército de EE. UU.}\hfill{Junio 2021-Diciembre 2022}}\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Planeé y ejecuté estratégicamente 10 iniciativas de recaudación de fondos para apoyar las actividades del equipo, vestuarios y gastos de viaje, lo que resultó en un aumento del 30% en los fondos disponibles en comparación con el año anterior.
+    \end{itemize}
+
+\vspace*{1mm}
+
+\end{document}
+
+
+
+
+

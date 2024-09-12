@@ -1,0 +1,93 @@
+PWD /Users/samkocho/Desktop/Resumes:CL/Resumes
+INPUT /Users/samkocho/Library/TinyTeX/texmf.cnf
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
+INPUT /Users/samkocho/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/samkocho/Desktop/Resumes:CL/Resumes/test latex file.tex
+OUTPUT test latex file.log
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./test latex file.aux
+INPUT ./test latex file.aux
+INPUT test latex file.aux
+OUTPUT test latex file.aux
+INPUT ./test latex file.out
+INPUT ./test latex file.out
+INPUT test latex file.out
+INPUT test latex file.out
+INPUT ./test latex file.out
+INPUT ./test latex file.out
+OUTPUT test latex file.out
+OUTPUT test latex file.pdf
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/samkocho/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT test latex file.aux
+INPUT ./test latex file.out
+INPUT ./test latex file.out
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Users/samkocho/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
