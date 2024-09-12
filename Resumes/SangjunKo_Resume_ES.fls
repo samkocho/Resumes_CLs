@@ -1,8 +1,8 @@
-PWD /Users/samkocho/Desktop/Resumes and CL/Resumes
+PWD /Users/samkocho/Desktop/Resumes_CLs/Resumes
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/samkocho/Desktop/Resumes and CL/Resumes/SangjunKo_Resume_ES.tex
+INPUT /Users/samkocho/Desktop/Resumes_CLs/Resumes/SangjunKo_Resume_ES.tex
 OUTPUT SangjunKo_Resume_ES.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
