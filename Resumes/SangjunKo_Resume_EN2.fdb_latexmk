@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1726175205.74437 "/Users/samkocho/Desktop/Resumes_CLs/Resumes/SangjunKo_Resume_EN2.tex" "SangjunKo_Resume_EN2.pdf" "SangjunKo_Resume_EN2" 1726175206.18079 0
-  "/Users/samkocho/Desktop/Resumes_CLs/Resumes/SangjunKo_Resume_EN2.tex" 1726175205.54037 13137 7479e108fe9adacd0302c07939ada4a7 ""
+["pdflatex"] 1726175243.36638 "/Users/samkocho/Desktop/Resumes_CLs/Resumes/SangjunKo_Resume_EN2.tex" "SangjunKo_Resume_EN2.pdf" "SangjunKo_Resume_EN2" 1726175243.78408 0
+  "/Users/samkocho/Desktop/Resumes_CLs/Resumes/SangjunKo_Resume_EN2.tex" 1726175243.17121 13149 71bd717dbc7dc878cebf93793a5bba57 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -77,9 +77,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716835680.39897 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716835621 8221423 0125c80109874d1fb5a18ac61038bb2b ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "SangjunKo_Resume_EN2.aux" 1726175206.13537 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "SangjunKo_Resume_EN2.out" 1726175206.00651 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "SangjunKo_Resume_EN2.tex" 1726175205.54037 13137 7479e108fe9adacd0302c07939ada4a7 ""
+  "SangjunKo_Resume_EN2.aux" 1726175243.73909 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "SangjunKo_Resume_EN2.out" 1726175243.61197 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "SangjunKo_Resume_EN2.tex" 1726175243.17121 13149 71bd717dbc7dc878cebf93793a5bba57 ""
   (generated)
   "SangjunKo_Resume_EN2.aux"
   "SangjunKo_Resume_EN2.log"
