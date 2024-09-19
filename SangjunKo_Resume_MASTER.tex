@@ -1,0 +1,349 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
+    Urbana, Illinois 61801 
+    | \href{mailto:sangjun2@illinois.edu}{sangjun2@illinois.edu}
+    | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
+
+	  
+\end{center}
+
+%==== Education ====%
+\header{\textbf{Education}}
+\textbf{University of Illinois at Urbana-Champaign}\hfill Champaign, Illinois \\
+Bachelor of Science in Statistics (CGPA: 3.83/4.00) \hfill January 2023 - May 2025 (Expected) \\ 
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Mathematics \& Data Science Minor
+    \end{itemize}
+
+\textbf{University of Michigan-Shanghai Jiao Tong University Joint Institute}\hfill Shanghai, China\\
+Bachelor of Engineering in Mechanical Engineering (CGPA: 3.50/4.00)\hfill September 2019 - December 2020\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item First Class Scholarship
+    \end{itemize}
+
+\vspace{2mm}
+
+\header{\textbf{Work Experience}}
+\vspace{1mm}
+
+
+\textbf{Applied Technologies for Learning in Arts \& Sciences}
+\hfill Champaign, Illinois\\
+\textit{AI/ML Intern Team Leader} \hfill January 2024 - Present\\
+\setlist{nolistsep}
+
+    \begin{itemize}[noitemsep]
+        \item Lead a team of 5 interns. 
+        \item Develop predictive machine learning models with large data sets(100,000+ entries) using Python
+        \item Utilize advanced techniques: XGBoost, Random Forests, Regression, Neural Networks, BERT, Transformers
+        \item Collaborate closely with 3 coordinators in weekly meetings to align project goals and track progress
+    \end{itemize}
+    
+    \vspace{1mm}
+
+\textbf{STAT107 Data Science Discovery} 
+\hfill Champaign, Illinois\\
+\textit{Course Assistant} \hfill August 2023 - Present\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Facilitate learning for over 1000 students by assisting 
+    students in grasping fundamental
+    data science concepts by conducting interactive sessions,
+    and providing clarifications on course materials
+    \item Manage Git for learning platform modifications, 
+    benefiting 1000+ students; create, edit, and proofread course materials
+    \item Collaborate with a team of 100+ staff and 2 professors in weekly meetings 
+    \end{itemize}
+
+    \vspace{1mm}
+
+\textbf{KM Internacional S.A.} \hfill Managua, Nicaragua\\
+\textit{Intern} \hfill May 2023 - August 2023\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+	\item  Oversaw comprehensive inventory management and streamlined
+     administrative tasks for a small textile company
+    \item Lead a team of three workers to achieve a 98\% 
+    accuracy rate in record-keeping 
+    and a 15\% reduction in operational costs
+    % \item Conducted frequent store visits across multiple locations, resulting
+    % in a 20\% increase in sales performance and a 10\% improvement in customer
+    % satisfaction scores
+    % \item Pioneered and executed an online expansion 
+    % strategy, resulting in a 50\% increase in online 
+    % sales revenue within three months and a 30\% expansion of
+    %  the customer base through social media platforms
+\end{itemize}
+\vspace{1mm}
+
+\textbf{Korean Augmentation to the United States Army Program} 
+\hfill Gyeonggi-do, South Korea\\
+\textit{Soldier} \hfill Jun 2021 - Dec 2022\\
+\vspace{-1mm}
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Demonstrated exceptional service in the \textquotedbl{}Korean 
+        Augmentation to the United States Army\textquotedbl{} program, completing
+         a rigorous 18-month military assignment.
+        \item Maintained and operated an M1 Abrams Tank, showcasing expertise 
+        as a Tank Infantry Soldier within the 2nd Squadron, 13th Cavalry Regiment.
+        \item Streamlined inventory management operations as an S-4 Soldier 
+        within the 176th Financial Management Support Unit, ensuring accurate 
+        and efficient financial processes.
+    % \item Qualified in M17 and M4 shooting ranges.
+	% \item Certified in the Combat Life Saving Course.
+\end{itemize}
+\vspace{1mm}
+
+\textbf{Istmo Textiles S.A.} \hfill Masaya, Nicaragua\\
+\textit{Intern} \hfill Feb 2021 - Mar 2021\\
+\vspace{-1mm}
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+	\item Worked as an intern in a Textiles Corporation mainly learning about the social responsibility of corporations; human rights, labor laws, environmental laws, and industrial safety laws. 
+	\item Studied the import and export of clothing and textiles from Central America to North America. 
+    \item Attended corporate social responsibility activities scheduled by the corporation aimed at supporting impoverished schools and churches in Masaya, Nicaragua, by providing school supplies and food.
+\end{itemize}
+
+\vspace*{1mm}
+
+\header{\textbf{Projects/Awards}}
+
+\textbf{3rd Place, 2024 COVID Information Commons Student Paper Challenge} \hfill September 2024 \\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Analyzed the socioeconomic and mental health impacts of COVID-19 in Mexico, identifying that 42\% of females and 40\% of young adults faced job loss.
+        \item Proposed data-driven interventions to support vulnerable groups through geospatial and statistical analysis.
+    \end{itemize}
+
+\textbf{Paraphrase Detection}\hfill{July 2024}\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Achieved 90\%+ accuracy in paraphrase detection using BERT, RoBERTa,
+     and SBERT models on the MRPC dataset
+    \item Developed a Gradio interface for real-time paraphrase detection, facilitating easier evaluation 
+    of textual similarities for academic and business use cases.
+\end{itemize}
+
+\textbf{International Student Forecasting}\hfill{April 2024}\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Processed and analyzed large-scale student enrollment data 
+    (over 100,000 entries) from UIUC to identify trends and patterns
+    \item Suggested resource allocation optimization by forecasting 
+    international student numbers using linear regression and deterministic processes
+    \end{itemize}
+
+\textbf{Titanic Machine Learning Model}\hfill{February 2024}\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Developed a predictive model with an 80\% accuracy using Python to 
+    determine factors influencing survival 
+    rates in the Titanic disaster using passenger data
+    \item Identified sex and passenger class as significant 
+    survival factors through feature importance analysis
+    \end{itemize}
+
+
+\vspace*{1mm}
+
+\header{\textbf{Skills}}
+\begin{tabular}{ l l }
+    Languages: & English (Fluent), Spanish (Fluent), Korean (Fluent), French (Basic), Chinese (Basic)              \\
+    Computer: & Python (Advanced): Pandas, NumPy, Scikit-learn, TensorFlow, 
+    NLTK, Matplotlib, Seaborn, \\
+    & BERT, Random Forest, XGBoost, Gradio\\
+    & R (Intermmediate): Tidyverse, ggplot2, dplyr, caret\\
+    & Git (Intermmediate), SAS (Basic), Tableau (Basic), SQL (Basic), Office (Advanced)\\
+    Certificates: & Data Science DISCOVERY, Data Science Certificate, 
+    Coursera Business Analytics Certificate
+\end{tabular}
+
+
+\vspace{1mm}
+
+
+\header{\textbf{Community Service and Extracurricular Activities}}
+
+\textbf{Treasurer in Performance UIUC Touch}\hfill February 2023 - May 2024\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Strategically plan and execute 10 fundraising 
+    initiatives to support team activities, costumes,
+    and travel expenses, resulting in a 30\% 
+    increase in available funds compared to the previous year
+    \item Contribute to the artistic success of the team by actively participating in 
+    weekly practices, refining dance routines, and honing performance skills.
+    \item Showcase talent by performing at renowned 
+    events elevating the visibility of Performance 
+    UIUC Touch within the dance community and attracting 100+ new followers 
+    on social media platforms
+\end{itemize}
+\vspace*{1mm}
+
+{\textbf{Translator for the US Army}\hfill{June 2021-December 2022}}\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Served as a translator for over 2,000 US soldiers 
+        and Korean soldiers during joint 
+        USFK training exercises
+        % \item Assisted newly stationed US soldiers in navigating 
+        % South Korea,resulting in a 95\% satisfaction rate among newly 
+        % stationed soldiers regarding their acclimation process
+    \end{itemize}
+
+\vspace*{1mm}
+
+{\textbf{President of Asian Culture Club}\hfill{Nov 2018-Mar 2019}}\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Lead a group of 5 students in a club that aimed to encourage a multicultural environment in a Latin American high school. 
+        \item Arranged a meeting every week and prepared an activity every month.\\
+    \end{itemize}
+\vspace*{1mm}
+
+{\textbf{Volunteer in Habitat For Humanity}\hfill{Sep 2016-Jun 2017}}\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Volunteer in a school club with the main purpose of providing general 
+        maintenance and basic necessities to the poor regions in Nicaragua. 
+        \item Participated in construction of 15 homes and hygienic systems.\\
+    \end{itemize}
+\vspace*{1mm}
+
+{\textbf{Teacher at Nanum School}\hfill{Aug 2016-Dec 2016}}\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Part of a group of teachers in a local school organized by our Korean Presbyterian Church. 
+        \item Taught English and Math to children of ages 5-12 in Masaya, Nicaragua\\
+    \end{itemize}
+
+% \vspace*{1mm}
+
+% {\textbf{Church Youth Group Choir Member}\hfill{Sep 2015-Sep 2018}}\\
+% As part of the choir group for the youth group in my Korean Presbyterian Church, I played the piano and sang before every Sunday mass. I also took part in preparing for big projects like Healing Camp where the choir group had to perform for several days in a row.\\
+
+
+
+
+% \vspace{1mm}
+
+% \header{\textbf{Honors and Awards}}
+% \textbf{Army Achievement Medal} \hfill December 2022\\
+% {Awarded by the Department of the US Army for outstanding service while assigned as 
+% the S4 noncommissioned officer in charge}
+
+% \textbf{Completion of KATUSA Program} \hfill December 2022\\
+% {Awarded by the Department of the South Korean Army for the completion of 18 
+% months of service in the Korean Augmentation to the United States Army Program}
+
+% \textbf{First Class Scholarship} \hfill Jun 2019\\
+% {Awarded to Outstanding applicants to the University of Michigan-University of Shanghai Jiao Tong University Joint Institute. The scholarship covers full tuition and accommodation fees.}
+
+% \textbf{Most Tenacious} \hfill Jun 2019\\
+% {Awarded by Notre Dame International School to one student in the graduating class of 2019}
+
+% \textbf{Mathematics Award} \hfill Jun 2019\\
+% {Awarded by Notre Dame International School to one student in the graduating class of 2019}
+
+% \textbf{Salutatorian} \hfill Jun 2019\\
+% {Awarded by Notre Dame International School to one student in the graduating class of 2019}
+
+% \vspace*{1mm}
+% \textbf{First Honor Roll} \hfill Jun 2016-Nov 2017\\
+% {Awarded by Lincoln International Academy to top 15\% of students in a year}
+
+% %\vspace*{1mm}
+% %\textbf{Excellence in Technology} \hfill Jun 2016-Jun 2017\\
+% %{Awarded to students who maintain an A+ in a subject matter in a year}
+
+% \vspace*{1mm}
+% \textbf{President\textquotesingle{}s Award for Educational Excellence} \hfill Jun 2015\\
+% {Awarded to students with a minimum GPA of 3.5. These students must reach a certain levels on state tests, or receive a recommendation from a teacher, as well as a strong production of academic excellence.}
+
+
+
+
+
+\end{document}
