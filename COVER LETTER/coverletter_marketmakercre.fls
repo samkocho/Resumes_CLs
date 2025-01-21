@@ -2,8 +2,8 @@ PWD /Users/samkocho/Desktop/Resumes_CLs/COVER LETTER
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/genericcoveronline.tex
-OUTPUT genericcoveronline.log
+INPUT /Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/coverletter_marketmakercre.tex
+OUTPUT coverletter_marketmakercre.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/letter.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/letter.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
@@ -39,10 +39,10 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./genericcoveronline.aux
-INPUT ./genericcoveronline.aux
-INPUT genericcoveronline.aux
-OUTPUT genericcoveronline.aux
+INPUT ./coverletter_marketmakercre.aux
+INPUT ./coverletter_marketmakercre.aux
+INPUT coverletter_marketmakercre.aux
+OUTPUT coverletter_marketmakercre.aux
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -66,7 +66,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-OUTPUT genericcoveronline.pdf
+OUTPUT coverletter_marketmakercre.pdf
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT genericcoveronline.aux
+INPUT coverletter_marketmakercre.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

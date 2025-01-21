@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1733467205.78944 "/Users/samkocho/Desktop/Resumes_CLs/SangjunKo_Resume_MASTER.tex" "SangjunKo_Resume_MASTER.pdf" "SangjunKo_Resume_MASTER" 1733467206.27835 0
-  "/Users/samkocho/Desktop/Resumes_CLs/SangjunKo_Resume_MASTER.tex" 1733467205.5907 13648 51ecd66f35857ca024f876ba03e6ccd4 ""
+["pdflatex"] 1737496344.1076 "/Users/samkocho/Desktop/Resumes_CLs/SangjunKo_Resume_MASTER.tex" "SangjunKo_Resume_MASTER.pdf" "SangjunKo_Resume_MASTER" 1737496344.51826 0
+  "/Users/samkocho/Desktop/Resumes_CLs/SangjunKo_Resume_MASTER.tex" 1737496343.91641 14677 2672c370a71fa4eb134f37f40ece6743 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -77,9 +77,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716835680.39897 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716835621 8221423 0125c80109874d1fb5a18ac61038bb2b ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "SangjunKo_Resume_MASTER.aux" 1733467206.23148 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "SangjunKo_Resume_MASTER.out" 1733467206.09606 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "SangjunKo_Resume_MASTER.tex" 1733467205.5907 13648 51ecd66f35857ca024f876ba03e6ccd4 ""
+  "SangjunKo_Resume_MASTER.aux" 1737496344.47656 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "SangjunKo_Resume_MASTER.out" 1737496344.35523 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "SangjunKo_Resume_MASTER.tex" 1737496343.91641 14677 2672c370a71fa4eb134f37f40ece6743 ""
   (generated)
   "SangjunKo_Resume_MASTER.aux"
   "SangjunKo_Resume_MASTER.log"

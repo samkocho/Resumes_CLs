@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/genericcoveronline.tex"
-(/Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/genericcoveronline.tex
+**"/Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/GravityResearchCL.tex"
+(/Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/GravityResearchCL.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/letter.cls
@@ -111,8 +111,8 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count267
 \l__pdf_internal_box=\box53
-) (./genericcoveronline.aux)
-\openout1 = `genericcoveronline.aux'.
+) (./GravityResearchCL.aux)
+\openout1 = `GravityResearchCL.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
@@ -156,7 +156,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./genericcoveronline.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./GravityResearchCL.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -164,14 +164,14 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  2433 strings out of 474116
- 35378 string characters out of 5743682
+ 35366 string characters out of 5743682
  1931187 words of memory out of 5000000
  24804 multiletter control sequences out of 15000+600000
  559768 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,489b,203s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,488b,203s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on genericcoveronline.pdf (1 page, 26409 bytes).
+Output written on GravityResearchCL.pdf (1 page, 26409 bytes).
 PDF statistics:
  13 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
