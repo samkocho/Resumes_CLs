@@ -1,0 +1,222 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{Daniela Barbosa}}\\
+    \href{mailto:danimb200@gmail.com}{danimb200@gmail.com} 
+    | Plainfield, IL
+    | 815-919-5317
+    % | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
+
+	  
+\end{center}
+
+%==== Education ====%
+\header{\textbf{Education}}
+\textbf{The Chicago School}\hfill Chicago, Illinois \\
+Education Specialist in School Psychology (CGPA: 3.92/4.00) \hfill August 2023 - June 2026 (Expected) \\ 
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item 2025 Illinois Funds for Careers in School Psychology Minority Scholarship recipient
+    \end{itemize}
+
+    \vspace{1mm}
+
+\textbf{University of Illinois at Urbana-Champaign}\hfill Champaign, Illinois \\
+Bachelor of Science in Psychology, Minor in Sociology (CGPA: 3.96/4.00) \hfill August 2019 - May 2023 \\ 
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Dean’s List Fall 2019 through Spring 2023
+        \item La Casa Cultural Latina 2020 Scholarship recipient
+    \end{itemize}
+
+% \textbf{University of Michigan-Shanghai Jiao Tong University Joint Institute}\hfill Shanghai, China\\
+% Bachelor of Engineering in Mechanical Engineering (CGPA: 3.50/4.00)\hfill September 2019 - December 2020\\
+% \setlist{nolistsep}
+%     \begin{itemize}[noitemsep]
+%         \item First Class Scholarship
+%     \end{itemize}
+
+\vspace{2mm}
+
+\header{\textbf{Training Experience}}
+\vspace{1mm}
+
+\textbf{Hinsdale Central High School} 
+\hfill Hinsdale, Illinois\\
+\textit{Intermediate Practicum Student} \hfill August 2024 - Present\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Practice under supervision of a professional school psychologist in the field
+    \item Implement a behavioral intervention plan with a student using the problem-solving model
+    \item Administer and score cognitive and achievement assessments such as the WIAT-4 and the WISC-V
+        \end{itemize}
+
+\vspace{1mm}
+
+\textbf{Currier Elementary School} 
+\hfill West Chicago, Illinois\\
+\textit{Beginner Practicum Student} \hfill August 2023 - May 2024\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Observed and learned from a professional school psychologist in the field
+    \item Assisted with Fastbridge progress monitoring reading assessments
+    \item Practiced various classroom observation methods, such as the BOSS, to monitor student behavior and engagement
+    \end{itemize}
+
+
+\vspace*{1mm}
+
+\header{\textbf{Work Experience}}
+\vspace{1mm}
+
+\textbf{The Chicago School} 
+\hfill Chicago, Illinois\\
+\textit{Teaching Assistant} \hfill August 2024 - Present\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Assist the professor in the delivery of SP532 Psycho-Educational Assessment I, providing support in course preparation
+    \item Evaluate and provide constructive feedback on student assessment protocols, specializing in the WISC-V and KABC-II, to enhance understanding and application of psycho-educational tools
+    \end{itemize}
+
+    \vspace{1mm}
+
+\textbf{Monte Nido Clementine} 
+\hfill Naperville, Illinois\\
+\textit{Recovery Coach} \hfill July 2023 - Present\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Support adolescents and families in eating disorder recovery by implementing individualized interventions to promote positive behavioral change
+    \item Supervise and document behavior of up to 12 clients during meals, ensuring compliance with nutritional goals and treatment plans
+    \end{itemize}
+
+    \vspace{1mm}
+
+\textbf{Ohio Department of Education} 
+\hfill Remote\\
+\textit{Intern} \hfill December 2021 - Present\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Conduct research and analysis of special education policies, contributing to informed decision-making and policy updates
+    \item Support the agency’s communication efforts by preparing clear and accessible summaries of state regulations and policies for stakeholders
+    \end{itemize}
+
+    \vspace{1mm}
+
+\textbf{America Reads/America Counts} 
+\hfill Champaign, Illinois\\
+\textit{Tutor} \hfill August 2021 - May 2023\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Supported 13 preschool-aged students in developing literacy and counting skills through individualized and group instruction
+    \item Conducted bilingual workshops, using both English and Spanish to enhance learning and accommodate diverse linguistic backgrounds
+    \end{itemize}
+    
+\vspace*{1mm}
+
+\header{\textbf{Skills}}
+\begin{tabular}{ l l }
+    Languages: & Spanish (Fluent), Korean (Basic) \\
+    Computer: & SPSS, Microsoft Word, Excel and Powerpoint \\
+    Certificates: & Nonviolent Crisis Prevention, First Aid, CPR, QPR
+\end{tabular}
+
+
+\vspace{1mm}
+
+
+\header{\textbf{Extracurricular Activities}}
+
+\textbf{School Psychology Student Organization}\hfill October 2024 - Present\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Manage organization’s budget and financial planning
+    \item Plan and execute campus events to enhance student involvement    
+\end{itemize} 
+
+\vspace{1mm}
+
+\textbf{Education Justice Project}\hfill January 2021 - October 2021\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Researched and contributed to a reentry guide for formerly incarcerated individuals
+    \item Reviewed Spanish translations to ensure cultural clarity
+\end{itemize} 
+
+\end{document}
