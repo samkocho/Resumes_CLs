@@ -1,61 +1,42 @@
-%basic cover letter template
-\documentclass{letter}
-\usepackage{amssymb,amsmath}
-\usepackage{graphicx}
+\documentclass[11pt]{article}
 
-\oddsidemargin=.2in
-\evensidemargin=.2in
-\textwidth=5.9in
-\topmargin=-.5in
-\textheight=9in
-
-%\address{Mathematics Department\\University of Illinois\\
-%1409 W. Green St\\Urbana, Illinois 61801}
-
-\newcommand {\qed}{\mbox{$\Box$}}
-\renewcommand {\iff}{\Longleftrightarrow}
-\newcommand {\R}{\mathbb{R}}
-\newcommand {\N}{\mathbb{N}}
-\newcommand {\Q}{\mathbb{Q}}
-\newcommand {\Z}{\mathbb{Z}}
-
-\newcommand {\sub}{\mbox{SB}}
-
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\setstretch{1.15}         % Adjust line spacing here if needed
+\usepackage{times}        % Use Times font (or comment out if you prefer another font)
 
 \begin{document}
-\begin{letter}{Gravity Research\\
-    600 New Hampshire Avenue NW, 4th Floor\\
-    Washington, DC 20037
-    }
+
+% -- Sender's Address -----------------------------------------
+\noindent
+Champaign, Illinois, 61820 \\
+\today
+\vspace{2em}
+
+% -- Recipient's Address --------------------------------------
+\noindent
+Individual's First \& Last Name \\
+Title \\
+Company \\
+Street Address \\
+City, State, Zip Code
+
+\vspace{1.5em}
+
+% -- Body ------------------------------------------------4
+Dear First Name Last Name -- Dear Hiring Manager (if name is not known),
 
 
-\opening{Dear Hiring Manager,}
-%say what job are you are for:
-%I am writing to express my interest in 
-%I am writing to be considered for
+\vspace{1em}
 
-I am excited to apply for the Research Analyst Internship (Remote) at MarketMaker CRE. As a senior pursuing a Bachelor of Science in Statistics at the University of Illinois at Urbana-Champaign, with minors in Mathematics and Data Science, I am eager to apply my analytical skills and research experience to support your team’s objectives.
+% -- Closing ----------------------------------------------------
+Sincerely,
 
-Through my role as an intern team leader at the Applied Technologies for Learning in Arts \& Sciences department, I have led data-driven projects, developing statistical models and generating actionable insights. This experience has enhanced my ability to collect and analyze large datasets, collaborate with cross-functional teams, and effectively communicate findings to stakeholders.
+\vspace{2em}
 
-In addition to my academic and internship experience, I have served as a consultant at Illinois Business Consulting, where I contributed to market analysis and strategic recommendations for clients across various industries. Collaborating with interdisciplinary teams has strengthened my problem-solving abilities and my capacity to develop data-driven solutions that align with business goals.
-
-I am proficient in data analysis tools such as Python, R, and Excel, and possess strong organizational and communication skills that enable me to manage multiple projects effectively. MarketMaker CRE’s focus on providing data-driven insights to inform strategic decisions aligns perfectly with my interests, and I am excited about the opportunity to contribute to your initiatives.
-
-I welcome the opportunity to discuss how my skills and experiences align with the needs of the role. Thank you for your time and consideration. I look forward to hearing from you soon.
-
-
-\closing{Sincerely,
-%\includegraphics[width=6cm]{signature.pdf}
-}
-%I made a pdf file of my signature using the scanner, so that all the cover letters I sent
-%electronically were "signed."  
-
+\noindent
 Sangjun Ko\\
-202 E White St\\
-Champaign, Illinois 61820\\
-(217) 369-0668 (cell)\\sangjun2@illinois.edu
-\end{letter}
+sangjun2@illinois.edu\\
+217-369-0668
 
 \end{document}
-

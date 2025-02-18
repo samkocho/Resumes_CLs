@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  18 FEB 2025 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  18 FEB 2025 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/genericcoveronline.tex"
-(/Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/genericcoveronline.tex
+**"/Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/Bobcat Data Analytics Internship:Co-op 2_18.tex"
+(/Users/samkocho/Desktop/Resumes_CLs/COVER LETTER/Bobcat Data Analytics Internship:Co-op 2_18.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -57,8 +57,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count199
 \l__pdf_internal_box=\box51
-) (./genericcoveronline.aux)
-\openout1 = `genericcoveronline.aux'.
+) (./Bobcat Data Analytics Internship:Co-op 2_18.aux)
+\openout1 = `"Bobcat Data Analytics Internship:Co-op 2_18.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -111,22 +111,22 @@ LaTeX Font Info:    ... okay on input line 8.
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./genericcoveronline.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Bobcat Data Analytics Internship:Co-op 2_18.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1127 strings out of 474116
- 19769 string characters out of 5743682
- 1926187 words of memory out of 5000000
- 23539 multiletter control sequences out of 15000+600000
+ 1128 strings out of 474116
+ 20132 string characters out of 5743682
+ 1930187 words of memory out of 5000000
+ 23540 multiletter control sequences out of 15000+600000
  559954 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,239b,109s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,5n,65p,631b,109s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on genericcoveronline.pdf (1 page, 18251 bytes).
+Output written on "Bobcat Data Analytics Internship:Co-op 2_18.pdf" (1 page, 19983 bytes).
 PDF statistics:
  14 PDF objects out of 1000 (max. 8388607)
  8 compressed objects within 1 object stream
