@@ -1,0 +1,194 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
+    1025 Lucerne Drive, Menasha, Wisconsin, 54952 
+    | \href{mailto:samuelkocho.sk@gmai.com}{samuelkocho.sk@gmail.com}
+    | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
+
+	  
+\end{center}
+
+%==== Education ====%
+\header{\textbf{Education}}
+\textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois \\
+Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 2025
+\setlist{nolistsep}
+
+
+
+\vspace{2mm}
+
+\header{\textbf{Work Experience}}
+\vspace{1mm}
+
+\textbf{Advantage xPO (on assignment at Kimberly-Clark)}
+\hfill Neenah, Wisconsin\\
+\textit{Statistician} \hfill June 2025 -- Present\\
+\setlist{nolistsep}
+\begin{itemize}[noitemsep]
+    \item Analyze BCC/AFC test data in R (ANOVA, SPC) and deliver decision briefs to engineers.  
+    \item Rebuilt leakage-test report pipeline: 3 h → <30 min turnaround, slashing manual QC.  
+    \item Draft Gage R\&R templates and launched computer-vision pilot to cut scoring error.    
+\end{itemize}
+
+\vspace{1mm}
+
+\textbf{STAT107 Data Science Discovery} 
+\hfill Champaign, Illinois\\
+\textit{Undergraduate Course Assistant} \hfill August 2023 - May 2025\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Assist over 300 students with fundamental data science concepts through interactive labs
+    \item Manage Git for learning platform modifications, 
+    benefiting 1000+ students; create, edit, and proofread course materials
+    \item Collaborate with a team of 100+ staff and 2 professors in weekly meetings 
+    \end{itemize}
+
+\vspace{1mm}
+
+\textbf{University of Illinois Main Library} \hfill Champaign, Illinois\\
+\textit{Library Assistant} \hfill May 2024 -- Jun 2024\\
+\begin{itemize}[noitemsep]
+  \item Assisted 10--20 patrons per shift with book checkouts, returns, and catalog searches.
+  \item Shelved and organized over 300 books weekly, ensuring accurate placement and accessibility.
+  \item Conducted headcounts of visitors every 30 minutes to support space-management reporting.
+\end{itemize}
+
+\vspace{1mm}
+
+\textbf{University of Illinois Catering Services} \hfill Champaign, Illinois\\
+\textit{Dining Hall Worker} \hfill May 2024 -- Jun 2024\\
+\begin{itemize}[noitemsep]
+  \item Maintained cleanliness and efficiency by washing dishes and sanitizing tables during peak service hours.
+  \item Completed formal catering training in guest service, event logistics, and food safety protocols.
+  \item Supported catering operations for events serving up to 500 guests, handling setup and cleanup.
+\end{itemize}
+
+
+\vspace*{1mm}
+
+\header{\textbf{Skills}}
+\begin{tabular}{ l l }
+    Languages: & English (Fluent), Spanish (Native), Korean (Native)              \\
+    Computer: & Python, R, Office, Microsoft Office, Google Workspace \\
+    Customer Service: & Handling patron inquiries and support \\
+    Library Systems: & Shelving, catalog navigation, inventory tracking \\
+\end{tabular}
+
+
+\vspace{1mm}
+
+
+\header{\textbf{Community Service and Extracurricular Activities}}
+
+\textbf{Consultant in Illinois Business Consulting}\hfill September 2024 - December 2024\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Collaborating with interdisciplinary teams to deliver strategic solutions 
+    for real-world business challenges, including market analysis, 
+    operational optimization, and growth strategy, for clients ranging from Fortune 
+    100 companies to nonprofits
+\end{itemize} 
+
+\vspace{1mm}
+
+\textbf{Volunteer, Habitat for Humanity} \hfill Masaya, Nicaragua\\
+\emph{School Club Volunteer} \hfill Sep 2016 -- Jun 2017\\
+\begin{itemize}[noitemsep]
+  \item Participated in construction of 15 homes and basic sanitary facilities for low-income families.
+  \item Organized food and supply drives, coordinating donations and volunteer activities.
+\end{itemize}
+
+\vspace{1mm}
+
+\textbf{Teacher} \hfill Masaya, Nicaragua\\
+\emph{Nanum School} \hfill Aug 2016 -- Dec 2016\\
+\begin{itemize}[noitemsep]
+  \item Taught English and Math to a group of 10 children (ages 5--12) in an impoverished area.
+  \item Organized educational activities and provided food and school materials.
+  \item Collaborated with fellow teachers to support students' learning and well-being.
+\end{itemize}
+
+
+
+
+
+\end{document}
