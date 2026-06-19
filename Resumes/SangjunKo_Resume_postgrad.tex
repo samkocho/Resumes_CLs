@@ -1,0 +1,196 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\vspace*{-40pt}
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
+    1025 Lucerne Drive, Menasha, Wisconsin, 54952
+    | \href{mailto:samuelkocho.sk@gmail.com}{samuelkocho.sk@gmail.com}
+    | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
+\end{center}
+
+%==== Work Experience ====%
+\header{\textbf{Work Experience}}
+\vspace{1mm}
+
+\textbf{Staffmark Group (on assignment at Kimberly-Clark)}
+\hfill Neenah, Wisconsin\\
+\textit{Statistician} \hfill June 2025 - Present\\
+\setlist{nolistsep}
+\begin{itemize}[noitemsep]
+    \item Design and run the lab experiments (designed experiments, DOEs) that generate training
+    data for regression models predicting consumer perception from physical bench measurements---supporting
+    a modeling effort that cuts reliance on expensive, multi-month consumer home-use testing across five product lines
+    \item Build and deploy six modules on K-C's internal Python/Flask analytics platform (50+ users),
+    turning manual statistical workflows---predictive models, lab-report automation---into self-service
+    tools, and serve as the team's sole liaison to the platform
+    \item Run recurring mannequin leakage analyses (5--10/month, 80+/year) using ANOVA, mixed models,
+    and pairwise comparisons; and analyze multiple DOEs to help establish a youth mannequin screening
+    method projected to save the business unit millions versus multi-month consumer home-use tests
+    \item As project statistician, design and analyze measurement-system and test-method validation
+    studies---Gauge R\&R, variable and attribute (Kappa) validations, equipment equivalency, and method
+    transfers---owning study design, sample sizing, and acceptance criteria across multiple product lines
+\end{itemize}
+
+\vspace{1mm}
+
+\textbf{STAT107 Data Science Discovery}
+\hfill Champaign, Illinois\\
+\textit{Undergraduate Course Assistant} \hfill August 2023 - May 2025\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+    \item Assisted over 300 students with fundamental data science concepts through interactive labs
+    \item Managed Git for learning platform modifications,
+    benefiting 1000+ students; created, edited, and proofread course materials
+    \end{itemize}
+
+\vspace{1mm}
+
+\textbf{Applied Technologies for Learning in Arts \& Sciences}
+\hfill Champaign, Illinois\\
+\textit{AI/ML Intern Team Leader} \hfill January 2024 - December 2024\\
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Led a team of 5 interns and collaborated closely with 3 managers in weekly meetings
+        \item Built ML models with 100,000+ data points using Python and advanced techniques like XGBoost and BERT
+    \end{itemize}
+
+\vspace{1mm}
+
+\vspace*{1mm}
+
+%==== Projects ====%
+\header{\textbf{Projects/Awards}}
+
+\textbf{Graduation Prediction Model}
+\hfill{September 2024 - December 2024}\\
+\setlist{nolistsep}
+\begin{itemize}[noitemsep]
+    \item Increased AUC score from 0.65 to 0.82 by reducing noise in the dataset through feature
+    engineering and outlier removal across 50,000+ student records
+    \item Built a Streamlit interface with 12 key predictors for
+    real-time predictions for university administrators
+\end{itemize}
+
+\textbf{3rd Place, 2024 CIC Student Paper Challenge (Columbia University)} \hfill{September 2024}\\
+\setlist{nolistsep}
+\begin{itemize}[noitemsep]
+    \item Analyzed socioeconomic and mental health impacts of COVID-19 in Mexico using geospatial and
+    statistical analysis, identifying that 42\% of females and 40\% of young adults faced job loss
+\end{itemize}
+
+\vspace*{1mm}
+
+%==== Skills ====%
+\header{\textbf{Skills}}
+\begin{tabular}{ l l }
+    Languages: & English (Fluent), Spanish (Native), Korean (Native)\\
+    Statistics: & Design of Experiments (DOE), Mixed Models/ANOVA, Multiple Comparisons, \\
+    & Gauge R\&R / MSA, Method Validation (TMV), Regression \& Predictive Modeling \\
+    Programming: & Python (Advanced): Pandas, NumPy, SciPy, statsmodels, Scikit-learn, TensorFlow, Matplotlib; \\
+    & R (Intermediate): Tidyverse, ggplot2, caret; SQL, SAS, Excel/VBA \\
+    Tools \& Web: & Flask, Docker, Git, JMP, HTML/CSS, JavaScript (Chart.js, Plotly), Tableau, Office \\
+    Certificates: & Data Science Certificate, Coursera Business Analytics Certificate
+\end{tabular}
+
+\vspace{2mm}
+
+%==== Education ====%
+\header{\textbf{Education}}
+\textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois \\
+Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 2025
+\setlist{nolistsep}
+    \begin{itemize}[noitemsep]
+        \item Mathematics Minor
+    \end{itemize}
+
+\vspace{1mm}
+
+%==== Community ====%
+\header{\textbf{Community Service and Extracurricular Activities}}
+\textbf{Volunteer, Appleton Public Library}\hfill August 2025 - Present\\
+\setlist{nolistsep}
+\begin{itemize}[noitemsep]
+    \item Help run a twice-weekly teen gaming night (2 hrs/session, 5--10 participants): organize the event, take attendance, and set up gaming consoles, puzzles, and other activities
+\end{itemize}
+
+\textbf{Consultant in Illinois Business Consulting}\hfill September 2024 - December 2024\\
+\setlist{nolistsep}
+\begin{itemize}[nolistsep]
+    \item Collaborated with interdisciplinary teams to deliver strategic solutions
+    for real-world business challenges, including market analysis,
+    operational optimization, and growth strategy, for clients ranging from Fortune
+    100 companies to nonprofits
+\end{itemize}
+
+\end{document}
