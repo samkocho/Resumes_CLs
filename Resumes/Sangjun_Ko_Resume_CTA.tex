@@ -13,12 +13,7 @@
 \raggedright
 \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
 
-    %\renewcommand{\encodingdefault}{cg}
-%\renewcommand{\rmdefault}{lgrcmr}
-
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
-
-% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\area} [2] {
     \vspace*{-9pt}
@@ -66,24 +61,17 @@
     \textbf{#1} #2 $\bullet$ #3\\
     #4 \\
 }
-% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
-
-
 
 \begin{document}
 \vspace*{-40pt}
 
-    
-
 %==== Profile ====%
 \vspace*{-10pt}
 \begin{center}
-	{\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
+    {\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
     1025 Lucerne Drive, Menasha, Wisconsin, 54952
     | \href{mailto:samuelkocho.sk@gmail.com}{samuelkocho.sk@gmail.com}
     | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
-
-	  
 \end{center}
 
 %==== Education ====%
@@ -95,8 +83,6 @@ Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 20
         \item Mathematics Minor
     \end{itemize}
 
-
-
 \vspace{2mm}
 
 \header{\textbf{Work Experience}}
@@ -107,21 +93,19 @@ Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 20
 \textit{Statistician} \hfill June 2025 - Present\\
 \setlist{nolistsep}
 \begin{itemize}[noitemsep]
-    \item Built and deployed leakageReport, a Flask-based statistical reporting module that
-    replaced an outdated legacy system for mannequin leakage studies---now used by technicians
-    to generate mixed-model ANOVA/pairwise-comparison reports for stakeholders and researchers
-    \item Built and deployed 5 additional Python modules on an internal analytics platform,
-    including a Python port of an Excel/VBA X-ray absorbency analysis, two predictive-modeling
-    UIs for R\&D teams, and a mannequin database/intake tool now owned by a teammate
-    \item Lead or support 10+ concurrent Test Method Validation (TMV) and Gauge R\&R studies
-    (basis weight, tensile, caliper, tear strength, attribute inspection) across product lines,
-    translating bias/precision results into pass/fail recommendations and spec-limit proposals
-    \item Deliver \textasciitilde45 individually-requested mannequin leakage analyses/year
-    (\textasciitilde6/month); support DOE design for a Youth TMD screening method projected to
-    save the business unit millions by replacing multi-month consumer home-use tests
+\item Design and run DOE experiments and curate home-use-test and lab data to build
+regression models that predict consumer perception from bench measurements, reducing reliance
+on expensive, multi-month consumer home-use testing
+\item Built and deployed leakageReport, a Flask-based statistical reporting module that
+replaced an outdated legacy system for mannequin leakage studies---continually improving
+reporting workflows for 50+ users; now the team standard
+\item Built and deployed 5 additional Python modules on an internal analytics platform,
+including a usage-tracking dashboard and predictive-modeling UIs, managing Git-based version
+control for the codebase and serving as the team's liaison to address structural data needs
+\item Lead or support 10+ concurrent Test Method Validation (TMV) and Gauge R\&R studies
+(basis weight, tensile, caliper, tear strength, attribute inspection) across product lines,
+translating bias/precision results into pass/fail recommendations and spec-limit proposals
 \end{itemize}
-
-
 
 \vspace{1mm}
 
@@ -137,63 +121,20 @@ Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 20
 
 \vspace{1mm}
 
-% \textbf{STAT443 Professional Statistics} 
-% \hfill Champaign, Illinois\\
-% \textit{Undergraduate Course Assistant} \hfill January 2025 - May 2025\\
-% \setlist{nolistsep}
-%     \begin{itemize}[noitemsep]
-%         \item Grade assignments and provide feedback to 20+ students on statistical analysis and consulting using Canvas LMS
-%         \item Act as a client in mock projects, simulating real-world consulting challenges
-%    \end{itemize}
-    
-% \vspace{1mm}
-
-
-    
 \textbf{Applied Technologies for Learning in Arts \& Sciences}
 \hfill Champaign, Illinois\\
 \textit{AI/ML Intern Team Leader} \hfill January 2024 - December 2024\\
 \setlist{nolistsep}
-
     \begin{itemize}[noitemsep]
-        \item Lead a team of 5 interns and collaborated closely with 3 managers in weekly meetings
+        \item Lead a team of 5 interns and collaborated closely with 3 coordinators in weekly meetings
         \item Built ML models with 100,000+ data points using Python and advanced techniques like XGBoost and BERT
     \end{itemize}
-
-\vspace{1mm}
-
-% \textbf{HappySneeze}
-% \hfill Remote\\
-% \textit{Market Research Intern} \hfill August 2024 - September 2024\\
-% \setlist{nolistsep}
-
-%     \begin{itemize}[noitemsep]
-%         \item Conducted market research and consumer trend analysis to enhance understanding of menopausal women's health needs 
-%         \item Led outreach and interviews with target demographics to gather insights on pelvic floor health        
-%         \item Synthesized findings into actionable strategies and presented recommendations to stakeholders   
-%     \end{itemize}
-
-%     \vspace{1mm}
-
-% \textbf{KM Internacional S.A.} \hfill Managua, Nicaragua\\
-% \textit{Intern} \hfill May 2023 - August 2023\\
-% \setlist{nolistsep}
-%     \begin{itemize}[noitemsep]
-% 	\item  Oversaw comprehensive inventory management and streamlined
-%      administrative tasks for a small textile company
-%     \item Lead a team of three workers to achieve a 98\% 
-%     accuracy rate in record-keeping 
-%     and a 15\% reduction in operational costs
-
-% \end{itemize}
-
 
 \vspace*{1mm}
 
 \header{\textbf{Projects/Awards}}
 
 \textbf{Graduation Prediction Model}
-% \hfill{September 2024 - December 2024}\\
 \setlist{nolistsep}
 \begin{itemize}[noitemsep]
     \item Increased AUC score from 0.65 to 0.82 by reducing noise in the dataset through feature 
@@ -202,16 +143,14 @@ Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 20
     real-time predictions for university administrators
 \end{itemize}
 
-\textbf{3rd Place, 2024 COVID Information Commons Student Paper Challenge (Columbia University)} 
-% \hfill September 2024 \\
+\textbf{3rd Place, 2024 COVID Information Commons Student Paper Challenge} 
 \setlist{nolistsep}
     \begin{itemize}[noitemsep]
         \item Analyzed the socioeconomic and mental health impacts of COVID-19 in Mexico, identifying that 42\% of females and 40\% of young adults faced job loss
-        \item Proposed interventions to support vulnerable groups through geospatial and statistical analysis
+        \item Proposed data-driven interventions to support vulnerable groups through geospatial and statistical analysis
     \end{itemize}
 
 \textbf{Paraphrase Detection}
-% \hfill{July 2024}\\
 \setlist{nolistsep}
 \begin{itemize}[nolistsep]
     \item Achieved 90\%+ accuracy in paraphrase detection using BERT, RoBERTa,
@@ -220,45 +159,24 @@ Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 20
     of textual similarities
 \end{itemize}
 
-
-
-
-
 \vspace*{1mm}
 
 \header{\textbf{Skills}}
 \begin{tabular}{ l l }
     Languages: & English (Fluent), Spanish (Native), Korean (Native), French (Basic), Chinese (Basic) \\
     Computer: & Python (Advanced): Pandas, NumPy, Scikit-learn, TensorFlow, NLTK, Matplotlib \\
-    & R (Intermmediate): Tidyverse, ggplot2, dplyr, caret \\
-    & JMP (Intermmediate), Excel/VBA (Intermmediate), Git (Intermmediate), SAS (Intermmediate) \\
-    & SQL (Basic), Tableau (Basic), Office (Advanced) \\
+    & R (Intermediate): Tidyverse, ggplot2, dplyr, caret \\
+    & Flask (Intermediate), Git (Intermediate), SAS (Intermediate), SQL (Basic) \\
+    & Tableau (Basic), Office (Advanced) \\
     Certificates: & Data Science Certificate, Coursera Business Analytics Certificate
 \end{tabular}
 
-
-
 \vspace{1mm}
-
 
 \header{\textbf{Community Service and Extracurricular Activities}}
 
 \textbf{Volunteer, Appleton Public Library}\hfill August 2025 - Present\\
-% \setlist{nolistsep}
-% \begin{itemize}[noitemsep]
-%     \item Support shelving/organization and ``Game On'' programs by guiding participants to games/activities and assisting with setup during sessions
-% \end{itemize}
 
 \textbf{Consultant in Illinois Business Consulting}\hfill September 2024 - December 2024\\
-% \setlist{nolistsep}
-% \begin{itemize}[nolistsep]
-%     \item Collaborating with interdisciplinary teams to deliver strategic solutions 
-%     for real-world business challenges, including market analysis, 
-%     operational optimization, and growth strategy, for clients ranging from Fortune 
-%     100 companies to nonprofits
-% \end{itemize} 
-
-
-
 
 \end{document}

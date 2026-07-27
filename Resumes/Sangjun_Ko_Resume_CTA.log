@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.27)  27 JUL 2026 09:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.27)  27 JUL 2026 09:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/F62254/OneDrive - Kimberly-Clark/Desktop/Resumes_CLs/Resumes/SangjunKo_Resume_EN2.tex"
-(c:/Users/F62254/OneDrive - Kimberly-Clark/Desktop/Resumes_CLs/Resumes/SangjunKo_Resume_EN2.tex
+**"c:/Users/F62254/OneDrive - Kimberly-Clark/Desktop/Resumes_CLs/Resumes/Sangjun_Ko_Resume_CTA.tex"
+(c:/Users/F62254/OneDrive - Kimberly-Clark/Desktop/Resumes_CLs/Resumes/Sangjun_Ko_Resume_CTA.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
 (C:\Users\F62254\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -239,31 +239,31 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\F62254\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\F62254\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
-) (SangjunKo_Resume_EN2.aux)
-\openout1 = `SangjunKo_Resume_EN2.aux'.
+) (Sangjun_Ko_Resume_CTA.aux)
+\openout1 = `Sangjun_Ko_Resume_CTA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-Package hyperref Info: Link coloring OFF on input line 73.
- (SangjunKo_Resume_EN2.out) (SangjunKo_Resume_EN2.out)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+Package hyperref Info: Link coloring OFF on input line 65.
+ (Sangjun_Ko_Resume_CTA.out) (Sangjun_Ko_Resume_CTA.out)
 \@outlinefile=\write3
-\openout3 = `SangjunKo_Resume_EN2.out'.
+\openout3 = `Sangjun_Ko_Resume_CTA.out'.
 
 
 *geometry* driver: auto-detecting
@@ -300,38 +300,33 @@ Package hyperref Info: Link coloring OFF on input line 73.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 230.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 165.
 (C:\Users\F62254\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 230.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 165.
  (C:\Users\F62254\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (17.82785pt too wide) in paragraph at lines 230--238
-[][]  
- []
+) [1
 
-[1
-
-{C:/Users/F62254/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (SangjunKo_Resume_EN2.aux)
+{C:/Users/F62254/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Sangjun_Ko_Resume_CTA.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-Package rerunfilecheck Info: File `SangjunKo_Resume_EN2.out' has not changed.
+Package rerunfilecheck Info: File `Sangjun_Ko_Resume_CTA.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  9945 strings out of 467510
- 153778 string characters out of 5408308
- 588926 words of memory out of 5000000
+ 153798 string characters out of 5408308
+ 588931 words of memory out of 5000000
  39087 multiletter control sequences out of 15000+600000
  635480 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,5n,79p,321b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,5n,79p,322b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\F62254\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\F62254\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\F62254\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\F62254\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1000.pk> <C:\Users\F62254\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\F62254\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2488.pk>
-Output written on "c:/Users\F62254\OneDrive - Kimberly-Clark\Desktop\Resumes_CLs\Resumes\SangjunKo_Resume_EN2.pdf" (1 page, 71527 bytes).
+Output written on "c:/Users\F62254\OneDrive - Kimberly-Clark\Desktop\Resumes_CLs\Resumes\Sangjun_Ko_Resume_CTA.pdf" (1 page, 71296 bytes).
 PDF statistics:
  224 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
