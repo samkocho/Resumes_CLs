@@ -3,436 +3,240 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{enumitem}
+\usepackage{array}
+\usepackage{needspace}
 \usepackage{textcomp}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
 
 \textheight=10in
 \pagestyle{empty}
 \raggedright
-\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
 
-    %\renewcommand{\encodingdefault}{cg}
-%\renewcommand{\rmdefault}{lgrcmr}
+% Keep bullet lists compact while retaining a small visual separation.
+\setlist[itemize]{topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=0pt}
 
-\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
-
-% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\area} [2] {
-    \vspace*{-9pt}
-    \begin{verse}
-        \textbf{#1}   #2
-    \end{verse}
-}
-
-\newcommand{\lineunder} {
+\newcommand{\lineunder}{
     \vspace*{-8pt} \\
     \hspace*{-18pt} \hrulefill \\
 }
 
-\newcommand{\header} [1] {
+\newcommand{\header}[1]{
+    \Needspace{4\baselineskip}
     {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
     \vspace*{-6pt} \lineunder
 }
 
-\newcommand{\employer} [3] {
-    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+\newcommand{\role}[4]{
+    \Needspace{8\baselineskip}
+    \vspace{2pt}
+    \textbf{#1}\hfill #2\\
+    \textit{#3}\hfill #4\\[-3pt]
 }
-
-\newcommand{\contact} [3] {
-    \vspace*{-10pt}
-    \begin{center}
-        {\Huge \scshape {#1}}\\
-        #2 \\ #3
-    \end{center}
-    \vspace*{-8pt}
-}
-
-\newenvironment{achievements}{
-    \begin{list}
-        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
-    \end{list}
-}
-
-\newcommand{\schoolwithcourses} [4] {
-    \textbf{#1} #2 $\bullet$ #3\\
-    #4 \\
-    \vspace*{5pt}
-}
-
-\newcommand{\school} [4] {
-    \textbf{#1} #2 $\bullet$ #3\\
-    #4 \\
-}
-% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
-
-
 
 \begin{document}
 \vspace*{-40pt}
 
-    
-
-%==== Profile ====%
 \vspace*{-10pt}
 \begin{center}
-	{\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
-    1025 Lucerne Drive, Menasha, Wisconsin, 54952
+    {\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
+    Menasha, Wisconsin
     | \href{mailto:samuelkocho.sk@gmail.com}{samuelkocho.sk@gmail.com}
     | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
-
-	  
 \end{center}
-
-%==== Education ====%
-\header{\textbf{Education}}
-\textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois  \\
-% Master of Science in Statistics \hfill August 2025 - May 2027 (Expected) \\
-Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 2025
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Mathematics Minor
-        \item Coursework: Applied Bayesian Analysis, Data Science Programming Methods, Advanced Data Analysis, 
-        Statistical Modeling II, Statistical Data Management, Statistics and Probability II, Statistical Consulting, 
-        Elementary Real Analysis, Linear Algebra
-    \end{itemize}
-
-\textbf{University of Michigan-Shanghai Jiao Tong University Joint Institute}\hfill Shanghai, China\\
-Bachelor of Engineering in Mechanical Engineering (CGPA: 3.50/4.00)\hfill September 2019 - December 2020\\
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item First Class Scholarship
-    \end{itemize}
-
-\vspace{2mm}
+\vspace*{-8pt}
 
 \header{\textbf{Work Experience}}
 \vspace{1mm}
 
-
-\textbf{Staffmark Group (on assignment at Kimberly-Clark)}
-\hfill Neenah, Wisconsin\\
-\textit{Statistician} \hfill June 2025 - Present\\
-\setlist{nolistsep}
+\role{Kimberly-Clark --- North America Family Care R\&D}{Neenah, Wisconsin}
+{Statistician (contract assignment through Staffmark Group)}{June 2025 -- Present}
 \begin{itemize}[noitemsep]
-\item Built and deployed leakageReport, a Flask-based statistical reporting module automating
-mannequin leakage reporting (mixed-model ANOVA, LS means, pairwise comparisons, leak-location
-crosstabs, multi-sheet Excel)---replacing a retiring legacy system with a free, self-service
-tool for 50+ users; now the team standard
-\item Built and deployed five further modules on an internal Flask analytics platform
-(50+ users)---self-service UIs for predictive models, a Python port of an X-ray absorbency
-analysis, a mannequin catalog/intake tool, and a usage-tracking dashboard---serving as the
-team's liaison to the platform
-\item Lead or support 10+ concurrent Test Method Validation (TMV) and Gauge R\&R studies
-(basis weight, tensile, caliper, tear strength, attribute inspection, breathability) across
-product lines, including leading development of a new whole-product breathability data-reduction
-method with its own Python analysis pipeline
-\item Deliver \textasciitilde45 individually-requested mannequin leakage analyses/year
-(\textasciitilde6/month) for two business units; developing a Youth TMD mannequin screening
-method (DOE-based) projected to save the business unit millions by replacing multi-month
-consumer home-use tests with a 3-week screen
-
+  \item Serve as statistical lead for approximately 90\% of 15+ completed and ongoing Test Method Validation (TMV) and measurement-system studies across multiple product lines and laboratory methods.
+  \item Develop study designs, sample-size recommendations, randomized and blinded run orders, acceptance criteria, statistical analyses, and qualification recommendations for continuous and attribute-based methods.
+  \item Coordinate closely with laboratory, test-method, product, and quality teams throughout study planning, execution, data review, and interpretation; analyze the resulting data and communicate findings and recommended next steps.
+  \item Support TMV and measurement-system work involving basis weight, tensile, caliper, tear strength, attribute inspection, breathability, equipment equivalency, method transfer, and Gauge R\&R.
+  \item Lead statistical planning for product- and claim-supporting methods spanning R\&D, quality, product release, and design verification, including collaboration with product, quality, laboratory, and legal stakeholders.
+  \item Translate statistical results into recommendations for test-method design, equipment qualification, acceptance criteria, follow-up testing, and investigation of unexpected product-performance patterns; product and method owners retain final decision authority.
+  \item Analyze an average of six requested mannequin leakage studies per month across two business units using ANOVA, mixed models, least-squares means, multiple comparisons, leak-location summaries, and sensitivity analyses.
+  \item Interpret product performance and failure patterns for product release, prototype screening, material qualification, DOE, competitive benchmarking, and consumer-study support; explain results and recommended follow-up actions to researchers and project teams.
+  \item Designed and deployed \textit{leakageReport}, a Python/Flask reporting application that replaced a retiring legacy workflow and allows 50+ researchers and technicians to upload data and generate standardized mixed-model and pairwise-comparison reports in minutes rather than waiting several days.
+  \item Build, deploy, and maintain six modules on an internal analytics platform, including leakage reporting, self-service predictive-model interfaces, an X-ray absorbency analysis port, a mannequin catalog and intake tool, and a usage-tracking dashboard; serve as a primary technical contact for the platform.
+  \item Maintain and further train established product-performance models, coordinate laboratory testing to generate new data, personally design supporting experiments, analyze results, and operationalize actively used models through self-service interfaces that increase their visibility and accessibility across R\&D.
+  \item Design and analyze DOE-based studies for development of a Youth TMD mannequin screening method intended to replace portions of multi-month consumer home-use testing with a three-week screen, with projected multimillion-dollar savings communicated by project leadership.
+  \item Lead development of a whole-product breathability data-reduction method and accompanying Python analysis pipeline, including recommendations for steady-state value selection and minimum run-time rules to improve consistency in future testing.
+  \item Develop initial design options for a global interlaboratory comparison involving laboratories in the United States, China, and Vietnam, addressing relative bias, repeatability, reproducibility, sample coverage, and practical execution constraints.
 \end{itemize}
 
+% Optional internal-only project inventory for tailoring:
+% - Product-/claim-supporting absorbency, image-based coverage, and peel/reseal methods
+% - Equipment-equivalency study with qualification and rejection recommendations
+% - Attribute-method design options involving agreement studies and acceptance sampling
+% - Mannequin studies spanning release, prototypes, materials, formulation, DOE, and competition
+% Keep descriptions generic in externally circulated resumes.
 
-
-\vspace{1mm}
-
-
-\textbf{STAT107 Data Science Discovery} 
-\hfill Champaign, Illinois\\
-\textit{Undergraduate Course Assistant} \hfill August 2023 - May 2025\\
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-    \item Facilitate learning for over 100 students by assisting 
-    students in grasping fundamental
-    data science concepts by conducting interactive sessions,
-    and providing clarifications on course materials
-    \item Manage Git for learning platform modifications, 
-    benefiting 1000+ students; create, edit, and proofread course materials
-    \item Collaborate with a team of 100+ staff and 2 professors in weekly meetings 
-    \end{itemize}
-
-\vspace{1mm}
-
-\textbf{STAT443 Professional Statistics} 
-\hfill Champaign, Illinois\\
-\textit{Undergraduate Course Assistant} \hfill January 2025 - May 2025\\
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Grade assignments and provide feedback to 20+ students on statistical analysis and consulting using Canvas LMS
-        \item Evaluate 5+ student presentations to ensure alignment with course expectations and grading criteria
-        \item Act as a client in mock consulting projects, providing insights and posing real-world challenges
-    \end{itemize}
-    
-\vspace{1mm}
-
-\vspace{1mm}
-
-\textbf{Applied Technologies for Learning in Arts \& Sciences}
-\hfill Champaign, Illinois\\
-\textit{AI/ML Intern Team Leader} \hfill January 2024 - December 2024\\
-\setlist{nolistsep}
-
-    \begin{itemize}[noitemsep]
-        \item Lead a team of 5 interns. 
-        \item Develop predictive machine learning models with large data sets(100,000+ entries) using Python
-        \item Utilize advanced techniques: XGBoost, Random Forests, Regression, Neural Networks, BERT, Transformers
-        \item Collaborate closely with 3 coordinators in weekly meetings to align project goals and track progress
-    \end{itemize}
-
-    \vspace{1mm}
-
-
-\textbf{HappySneeze}
-\hfill Remote\\
-\textit{Market Research Intern} \hfill August 2024 - September 2024\\
-\setlist{nolistsep}
-
-    \begin{itemize}[noitemsep]
-        \item Conducted market research and consumer trend analysis to enhance understanding of menopausal women's health needs 
-        \item Led outreach and interviews with target demographics to gather insights on pelvic floor health        
-        \item Synthesized findings into actionable strategies and presented recommendations to stakeholders   
-    \end{itemize}
-
-    \vspace{1mm}
-
-
-\textbf{KM Internacional S.A.} \hfill Managua, Nicaragua\\
-\textit{Intern} \hfill May 2023 - August 2023\\
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-	\item  Oversaw comprehensive inventory management and streamlined
-     administrative tasks for a small textile company
-    \item Lead a team of three workers to achieve a 98\% 
-    accuracy rate in record-keeping 
-    and a 15\% reduction in operational costs
-    % \item Conducted frequent store visits across multiple locations, resulting
-    % in a 20\% increase in sales performance and a 10\% improvement in customer
-    % satisfaction scores
-    % \item Pioneered and executed an online expansion 
-    % strategy, resulting in a 50\% increase in online 
-    % sales revenue within three months and a 30\% expansion of
-    %  the customer base through social media platforms
+\role{STAT 107: Data Science Discovery, University of Illinois Urbana-Champaign}{Champaign, Illinois}
+{Undergraduate Course Assistant}{August 2023 -- May 2025}
+\begin{itemize}[noitemsep]
+  \item Mentored 300+ students in foundational data-science concepts through interactive laboratory sessions and individualized technical support.
+  \item Managed Git-based updates and created, edited, and proofread instructional content for a learning platform serving 1,000+ students.
+  \item Collaborated with a staff of 100+ course assistants and two professors through weekly planning and coordination meetings.
 \end{itemize}
-\vspace{1mm}
 
-\textbf{Korean Augmentation to the United States Army Program} 
-\hfill Gyeonggi-do, South Korea\\
-\textit{Soldier} \hfill Jun 2021 - Dec 2022\\
-\vspace{-1mm}
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Demonstrated exceptional service in the \textquotedbl{}Korean 
-        Augmentation to the United States Army\textquotedbl{} program, completing
-         a rigorous 18-month military assignment
-        \item Maintained and operated an M1 Abrams Tank, showcasing expertise 
-        as a Tank Infantry Soldier within the 2nd Squadron, 13th Cavalry Regiment
-        \item Streamlined inventory management operations as an S-4 Soldier 
-        within the 176th Financial Management Support Unit, ensuring accurate 
-        and efficient financial processes
-    % \item Qualified in M17 and M4 shooting ranges.
-	% \item Certified in the Combat Life Saving Course.
+\role{STAT 443: Professional Statistics, University of Illinois Urbana-Champaign}{Champaign, Illinois}
+{Undergraduate Course Assistant}{January 2025 -- May 2025}
+\begin{itemize}[noitemsep]
+  \item Graded assignments and provided feedback to 20+ students on statistical analysis, consulting, and communication.
+  \item Evaluated 5+ student presentations for analytical quality and alignment with project expectations.
+  \item Acted as a client in mock consulting projects, posing realistic technical questions and business constraints.
 \end{itemize}
-\vspace{1mm}
 
-\textbf{Istmo Textiles S.A.} \hfill Masaya, Nicaragua\\
-\textit{Intern} \hfill Feb 2021 - Mar 2021\\
-\vspace{-1mm}
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-	\item Worked as an intern in a Textiles Corporation mainly learning about the social responsibility of corporations; human rights, labor laws, environmental laws, and industrial safety laws
-	\item Studied the import and export of clothing and textiles from Central America to North America
-    \item Attended corporate social responsibility activities scheduled by the corporation aimed at supporting impoverished schools and churches in Masaya, Nicaragua, by providing school supplies and food
+\role{Applied Technologies for Learning in Arts \& Sciences}{Champaign, Illinois}
+{AI/ML Intern Team Leader}{January 2024 -- December 2024}
+\begin{itemize}[noitemsep]
+  \item Led a team of five interns and coordinated priorities, deliverables, and progress with three managers through weekly meetings.
+  \item Developed and evaluated Python machine-learning models using datasets containing 100,000+ records.
+  \item Applied regression, random forests, XGBoost, neural networks, BERT, and transformer-based methods to predictive and natural-language-processing projects.
+\end{itemize}
+
+\role{HappySneeze}{Remote}
+{Market Research Intern}{August 2024 -- September 2024}
+\begin{itemize}[noitemsep]
+  \item Created an interview guide and conducted 10+ consumer interviews concerning menopause and pelvic-floor health needs.
+  \item Conducted market and consumer-trend research and synthesized findings into product and market recommendations for stakeholders.
+\end{itemize}
+
+\role{KM Internacional S.A.}{Managua, Nicaragua}
+{Intern}{May 2023 -- August 2023}
+\begin{itemize}[noitemsep]
+  \item Oversaw inventory management and streamlined administrative processes for a small textile company.
+  \item Led three employees in improving record-keeping accuracy to 98\% and reducing operational costs by 15\%.
+\end{itemize}
+
+\role{Korean Augmentation to the United States Army (KATUSA)}{Gyeonggi-do, South Korea}
+{Soldier --- Infantry and S-4 Logistics}{June 2021 -- December 2022}
+\begin{itemize}[noitemsep]
+  \item Completed an 18-month assignment in bilingual and cross-cultural U.S.--Korean military environments.
+  \item Performed infantry responsibilities involving maintenance and operation of an M1 Abrams tank with the 2nd Squadron, 13th Cavalry Regiment.
+  \item Supported S-4 logistics and inventory operations for the 176th Financial Management Support Unit, maintaining accurate and efficient accountability processes.
+  \item Served as a Korean--English liaison and translator for 2,000+ U.S. and Korean soldiers during joint training exercises and assisted newly stationed personnel with local orientation.
+\end{itemize}
+
+\role{Istmo Textiles S.A.}{Masaya, Nicaragua}
+{Intern}{February 2021 -- March 2021}
+\begin{itemize}[noitemsep]
+  \item Studied corporate social responsibility, human rights, labor and environmental requirements, industrial safety, and textile import/export operations between Central and North America.
+  \item Participated in community-support activities providing school supplies and food to schools and churches in Masaya.
 \end{itemize}
 
 \vspace*{1mm}
+\header{\textbf{Projects and Awards}}
 
-\header{\textbf{Projects/Awards}}
-
-\textbf{Graduation Prediction Model}
-\hfill{September 2024 - December 2024}
-\setlist{nolistsep}
+\textbf{Graduation Prediction Model}\hfill September 2024 -- December 2024
 \begin{itemize}[noitemsep]
-    \item Increased AUC score from 0.65 to 0.82 by reducing noise in the dataset through feature 
-    engineering and outlier removal across 50,000+ student records
-    \item Built an interactive Streamlit interface with 12 key predictors, enabling 
-    real-time graduation predictions for university administrators
+  \item Increased model AUC from 0.65 to 0.82 through feature engineering and outlier review across 50,000+ student records.
+  \item Built a Streamlit interface using 12 key predictors to provide real-time graduation predictions for university administrators.
 \end{itemize}
 
-\textbf{3rd Place, 2024 COVID Information Commons Student Paper Challenge} \hfill{September 2024}
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Analyzed the socioeconomic and mental health impacts of COVID-19 in Mexico, identifying that 42\% of females and 40\% of young adults faced job loss
-        \item Proposed data-driven interventions to support vulnerable groups through geospatial and statistical analysis
-    \end{itemize}
-
-\textbf{Paraphrase Detection}\hfill{July 2024}
-\setlist{nolistsep}
-\begin{itemize}[nolistsep]
-    \item Achieved 90\%+ accuracy in paraphrase detection using BERT, RoBERTa,
-     and SBERT models on the MRPC dataset
-    \item Developed a Gradio interface for real-time paraphrase detection, facilitating easier evaluation 
-    of textual similarities for academic and business use cases
+\textbf{3rd Place, 2024 COVID Information Commons Student Paper Challenge}\hfill September 2024
+\begin{itemize}[noitemsep]
+  \item Analyzed socioeconomic and mental-health effects of COVID-19 in Mexico using statistical and geospatial methods and proposed interventions for vulnerable groups.
 \end{itemize}
 
-\textbf{International Student Forecasting}\hfill{April 2024}
-\setlist{nolistsep}
-\begin{itemize}[nolistsep]
-    \item Processed and analyzed large-scale student enrollment data 
-    (over 100,000 entries) from UIUC to identify trends and patterns
-    \item Suggested resource allocation optimization by forecasting 
-    international student numbers using linear regression and deterministic processes
-    \end{itemize}
+\textbf{Paraphrase Detection}\hfill July 2024
+\begin{itemize}[noitemsep]
+  \item Achieved 90\%+ accuracy on the MRPC dataset using BERT, RoBERTa, and SBERT and developed a Gradio interface for real-time evaluation.
+\end{itemize}
 
-\textbf{Titanic Machine Learning Model}\hfill{February 2024}
-\setlist{nolistsep}
-\begin{itemize}[nolistsep]
-    \item Developed a predictive model with an 80\% accuracy using Python to 
-    determine factors influencing survival 
-    rates in the Titanic disaster using passenger data
-    \item Identified sex and passenger class as significant 
-    survival factors through feature importance analysis
-    \end{itemize}
+\textbf{International Student Forecasting}\hfill April 2024
+\begin{itemize}[noitemsep]
+  \item Processed 100,000+ enrollment records, identified trends, and forecast international enrollment to support resource-allocation recommendations.
+\end{itemize}
 
+\textbf{Titanic Machine-Learning Model}\hfill February 2024
+\begin{itemize}[noitemsep]
+  \item Developed an 80\%-accuracy Python classification model and used feature importance to identify key survival factors.
+\end{itemize}
 
 \vspace*{1mm}
+\header{\textbf{Education}}
 
+\textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois\\
+Bachelor of Science in Statistics, Mathematics Minor; GPA: 3.93/4.00\hfill January 2023 -- May 2025
+\begin{itemize}[noitemsep]
+  \item Relevant coursework: Applied Bayesian Analysis, Advanced Data Analysis, Statistical Modeling, Statistical Data Management, Statistical Consulting, Probability, Real Analysis, Linear Algebra, and Data Science Programming.
+\end{itemize}
+
+\textbf{University of Michigan--Shanghai Jiao Tong University Joint Institute}\hfill Shanghai, China\\
+Coursework toward a B.E. in Mechanical Engineering; transferred to UIUC\hfill September 2019 -- December 2020
+\begin{itemize}[noitemsep]
+  \item First Class Scholarship.
+\end{itemize}
+
+\vspace*{1mm}
 \header{\textbf{Skills}}
-\begin{tabular}{ l l }
-    Languages: & English (Fluent), Spanish (Native), Korean (Native), French (Basic), Chinese (Basic)              \\
-    Computer: & Python (Advanced): Pandas, NumPy, Scikit-learn, TensorFlow, 
-    NLTK, Matplotlib, Seaborn, \\
-    & BERT, Random Forest, XGBoost, Gradio\\
-    & R (Intermmediate): Tidyverse, ggplot2, dplyr, caret\\
-    & Git (Intermmediate), SAS (Intermmediate), Tableau (Basic), SQL (Basic), Office (Advanced)\\
-    Certificates: & Data Science DISCOVERY, Data Science Certificate, 
-    Coursera Business Analytics Certificate
+\begin{tabular}{@{}l >{\raggedright\arraybackslash}p{0.81\textwidth}@{}}
+\textbf{Statistical methods:} & DOE, TMV, Gauge R\&R/MSA, mixed models, ANOVA, multiple comparisons, regression, attribute agreement, bias and precision analysis, equipment equivalency, method transfer\\
+\textbf{Programming:} & Python, R, SQL, JavaScript, HTML/CSS, Excel/VBA\\
+\textbf{Libraries/frameworks:} & Pandas, NumPy, SciPy, statsmodels, scikit-learn, TensorFlow, Flask, Streamlit, Gradio, Matplotlib, Seaborn, Tidyverse, ggplot2\\
+\textbf{Tools:} & JMP, Git, Docker, SAS, Tableau, Microsoft Office\\
+\textbf{Languages:} & Korean and Spanish (native); English (fluent); French and Chinese (basic)\\
+\textbf{Certificates:} & Data Science DISCOVERY; Data Science Certificate; Coursera Business Analytics Certificate
 \end{tabular}
 
+\vspace*{1mm}
+\header{\textbf{Leadership, Service, and Activities}}
 
-\vspace{1mm}
-
-
-\header{\textbf{Community Service and Extracurricular Activities}}
-
-\textbf{Volunteer, Appleton Public Library}\hfill{August 2025 - Present}
-\setlist{nolistsep}
-\begin{itemize}[nolistsep]
-    \item Shelving and organizing materials to keep collections accurate and patron-ready
-    \item Supporting “Game On” programs by guiding participants to games/activities and assisting with setup and navigation during sessions
+\textbf{Volunteer, Habitat for Humanity --- Tornado Recovery}\hfill Menasha, Wisconsin\\
+August 2026
+\begin{itemize}[noitemsep]
+  \item Cleared storm debris and checked in with households in the Menasha area that requested tornado-recovery assistance through 211 or Habitat for Humanity.
 \end{itemize}
 
-
-\textbf{Consultant in Illinois Business Consulting}\hfill{September 2024 - December 2024}
-\setlist{nolistsep}
-\begin{itemize}[nolistsep]
-    \item Collaborating with interdisciplinary teams to deliver strategic solutions 
-    for real-world business challenges, including market analysis, 
-    operational optimization, and growth strategy, for clients ranging from Fortune 
-    100 companies to nonprofits
-\end{itemize} 
-
-\textbf{Treasurer in Performance UIUC Touch}\hfill{February 2023 - May 2024}
-\setlist{nolistsep}
-\begin{itemize}[nolistsep]
-    \item Strategically plan and execute 10 fundraising 
-    initiatives to support team activities, costumes,
-    and travel expenses, resulting in a 30\% 
-    increase in available funds compared to the previous year
-    \item Contribute to the artistic success of the team by actively participating in 
-    weekly practices, refining dance routines, and honing performance skills.
-    \item Showcase talent by performing at renowned 
-    events elevating the visibility of Performance 
-    UIUC Touch within the dance community and attracting 100+ new followers 
-    on social media platforms
+\textbf{Volunteer, Appleton Public Library}\hfill Appleton, Wisconsin\\
+August 2025 -- Present
+\begin{itemize}[noitemsep]
+  \item Shelve and organize materials and support ``Game On'' programs through setup, participant guidance, and activity assistance.
 \end{itemize}
+
+\textbf{Consultant, Illinois Business Consulting}\hfill Champaign, Illinois\\
+September 2024 -- December 2024
+\begin{itemize}[noitemsep]
+  \item Collaborated with an interdisciplinary team on market analysis, operational optimization, and growth-strategy recommendations for a client engagement.
+\end{itemize}
+
+\textbf{Treasurer, Performance UIUC Touch}\hfill Champaign, Illinois\\
+February 2023 -- May 2024
+\begin{itemize}[noitemsep]
+  \item Planned and executed 10 fundraising initiatives, increasing available funds by 30\% to support activities, costumes, and travel.
+  \item Participated in weekly practices and public performances and helped expand the team's social-media audience by 100+ followers.
+\end{itemize}
+
+\textbf{President, Asian Culture Club}\hfill November 2018 -- March 2019
+\begin{itemize}[noitemsep]
+  \item Led five students in promoting multicultural engagement at an international high school and organized weekly meetings and monthly activities.
+\end{itemize}
+
+\textbf{Volunteer, Habitat for Humanity}\hfill Nicaragua\\
+September 2016 -- June 2017
+\begin{itemize}[noitemsep]
+  \item Supported home and sanitation-system construction and maintenance projects serving low-income communities, contributing to 15 homes.
+\end{itemize}
+
+\textbf{Teacher, Nanum School}\hfill Masaya, Nicaragua\\
+August 2016 -- December 2016
+\begin{itemize}[noitemsep]
+  \item Taught English and mathematics to children ages 5--12 through a local community school organized by a Korean Presbyterian church.
+\end{itemize}
+
 \vspace*{1mm}
-
-\textbf{Translator for the US Army}\hfill{June 2021-December 2022}
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Served as a translator for over 2,000 US soldiers 
-        and Korean soldiers during joint 
-        USFK training exercises
-        \item Assisted newly stationed US soldiers in navigating 
-        South Korea,resulting in a 95\% satisfaction rate among newly 
-        stationed soldiers regarding their acclimation process
-    \end{itemize}
-
-\vspace*{1mm}
-
-\textbf{President of Asian Culture Club}\hfill{Nov 2018-Mar 2019}
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Lead a group of 5 students in a club that aimed to encourage a multicultural environment in a Latin American high school
-        \item Arranged a meeting every week and prepared an activity every month
-    \end{itemize}
-\vspace*{1mm}
-
-\textbf{Volunteer in Habitat For Humanity}\hfill{Sep 2016-Jun 2017}
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Volunteer in a school club with the main purpose of providing general 
-        maintenance and basic necessities to the poor regions in Nicaragua.
-        \item Participated in construction of 15 homes and hygienic systems
-    \end{itemize}
-\vspace*{1mm}
-
-\textbf{Teacher at Nanum School}\hfill{Aug 2016-Dec 2016}
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Part of a group of teachers in a local school organized by our Korean Presbyterian Church
-        \item Taught English and Math to children of ages 5-12 in Masaya, Nicaragua
-    \end{itemize}
-
-% \vspace*{1mm}
-
-% {\textbf{Church Youth Group Choir Member}\hfill{Sep 2015-Sep 2018}}\\
-% As part of the choir group for the youth group in my Korean Presbyterian Church, I played the piano and sang before every Sunday mass. I also took part in preparing for big projects like Healing Camp where the choir group had to perform for several days in a row.\\
-
-
-
-
-% \vspace{1mm}
-
-% \header{\textbf{Honors and Awards}}
-% \textbf{Army Achievement Medal} \hfill December 2022\\
-% {Awarded by the Department of the US Army for outstanding service while assigned as 
-% the S4 noncommissioned officer in charge}
-
-% \textbf{Completion of KATUSA Program} \hfill December 2022\\
-% {Awarded by the Department of the South Korean Army for the completion of 18 
-% months of service in the Korean Augmentation to the United States Army Program}
-
-% \textbf{First Class Scholarship} \hfill Jun 2019\\
-% {Awarded to Outstanding applicants to the University of Michigan-University of Shanghai Jiao Tong University Joint Institute. The scholarship covers full tuition and accommodation fees.}
-
-% \textbf{Most Tenacious} \hfill Jun 2019\\
-% {Awarded by Notre Dame International School to one student in the graduating class of 2019}
-
-% \textbf{Mathematics Award} \hfill Jun 2019\\
-% {Awarded by Notre Dame International School to one student in the graduating class of 2019}
-
-% \textbf{Salutatorian} \hfill Jun 2019\\
-% {Awarded by Notre Dame International School to one student in the graduating class of 2019}
-
-% \vspace*{1mm}
-% \textbf{First Honor Roll} \hfill Jun 2016-Nov 2017\\
-% {Awarded by Lincoln International Academy to top 15\% of students in a year}
-
-% %\vspace*{1mm}
-% %\textbf{Excellence in Technology} \hfill Jun 2016-Jun 2017\\
-% %{Awarded to students who maintain an A+ in a subject matter in a year}
-
-% \vspace*{1mm}
-% \textbf{President\textquotesingle{}s Award for Educational Excellence} \hfill Jun 2015\\
-% {Awarded to students with a minimum GPA of 3.5. These students must reach a certain levels on state tests, or receive a recommendation from a teacher, as well as a strong production of academic excellence.}
-
-
-
-
+\header{\textbf{Additional Honors}}
+\begin{itemize}[noitemsep]
+  \item Army Achievement Medal, United States Army, December 2022.
+  \item First Class Scholarship, University of Michigan--Shanghai Jiao Tong University Joint Institute, 2019.
+  \item Salutatorian and Mathematics Award, Notre Dame International School, 2019.
+\end{itemize}
 
 \end{document}

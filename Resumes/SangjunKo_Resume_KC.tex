@@ -1,0 +1,98 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{needspace}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+
+% Keep bullet lists compact while retaining a small visual separation.
+\setlist[itemize]{topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=0pt}
+
+\newcommand{\lineunder}{
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header}[1]{
+    \Needspace{4\baselineskip}
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\role}[4]{
+    \Needspace{8\baselineskip}
+    \vspace{2pt}
+    \textbf{#1}\hfill #2\\
+    \textit{#3}\hfill #4\\[-3pt]
+}
+
+\begin{document}
+\vspace*{-40pt}
+
+\vspace*{-10pt}
+\begin{center}
+    {\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
+    Menasha, Wisconsin
+    | \href{mailto:samuelkocho.sk@gmail.com}{samuelkocho.sk@gmail.com}
+    | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
+\end{center}
+\vspace*{-8pt}
+
+\header{\textbf{Work Experience}}
+\vspace{1mm}
+
+\role{Kimberly-Clark --- North America Family Care R\&D}{Neenah, Wisconsin}
+{Statistician (contract assignment through Staffmark Group)}{June 2025 -- Present}
+\begin{itemize}[noitemsep]
+  \item Serve as statistical lead for 15+ completed and ongoing Test Method Validation and measurement-system studies; develop study designs, sample-size recommendations, randomized and blinded run orders, acceptance criteria, analyses, and qualification recommendations in coordination with laboratory, test-method, product, and quality teams.
+  \item Lead statistical planning for product- and claim-supporting work spanning R\&D, quality, product release, and design verification; translate findings into recommendations for method design, equipment qualification, follow-up testing, and investigation of unexpected performance patterns.
+  \item Analyze an average of six requested mannequin leakage studies per month across two business units, interpreting product performance and failure patterns for product release, prototype screening, material qualification, DOE, competitive benchmarking, and consumer-study support.
+  \item Design and analyze DOE-based studies for a Youth TMD mannequin screening method intended to replace portions of multi-month consumer home-use testing with a three-week screen, with projected multimillion-dollar savings.
+  \item Designed and maintain a Python/Flask reporting application that replaced a retiring legacy workflow, enabling 50+ researchers and technicians to generate standardized statistical reports in minutes rather than waiting several days; serve as a primary technical contact for the internal analytics platform.
+  \item Maintain and further train established product-performance models, coordinate laboratory testing, design supporting experiments, analyze new data, and deploy self-service interfaces that improve model visibility and access across R\&D.
+\end{itemize}
+
+\role{Applied Technologies for Learning in Arts \& Sciences}{Champaign, Illinois}
+{AI/ML Intern Team Leader}{January 2024 -- December 2024}
+\begin{itemize}[noitemsep]
+  \item Led five interns and coordinated priorities with three managers while developing Python machine-learning models using datasets containing 100,000+ records.
+\end{itemize}
+
+\role{HappySneeze}{Remote}
+{Market Research Intern}{August 2024 -- September 2024}
+\begin{itemize}[noitemsep]
+  \item Created an interview guide, conducted 10+ consumer interviews on menopause and pelvic-floor health needs, and synthesized findings into product and market recommendations.
+\end{itemize}
+
+\role{University of Illinois Urbana-Champaign}{Champaign, Illinois}
+{Undergraduate Course Assistant, Data Science and Professional Statistics}{August 2023 -- May 2025}
+\begin{itemize}[noitemsep]
+  \item Mentored 300+ students in data science and statistical consulting and maintained instructional content for a learning platform serving 1,000+ students.
+\end{itemize}
+
+\vspace*{1mm}
+\header{\textbf{Education}}
+\textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois\\
+B.S. Statistics, Mathematics Minor; GPA: 3.93/4.00\hfill May 2025\\[-1pt]
+\textbf{University of Michigan--Shanghai Jiao Tong University Joint Institute}\hfill Shanghai, China\\
+Mechanical Engineering coursework; transferred to UIUC; First Class Scholarship\hfill 2019 -- 2020
+
+\vspace*{1mm}
+\header{\textbf{Skills}}
+\begin{tabular}{@{}l >{\raggedright\arraybackslash}p{0.81\textwidth}@{}}
+\textbf{Statistical/R\&D:} & DOE, TMV, Gauge R\&R/MSA, mixed models, ANOVA, multiple comparisons, regression, attribute agreement, bias/precision analysis, equipment equivalency, method transfer\\
+\textbf{Technology:} & Python, R, JMP, Flask, Pandas, NumPy, SciPy, statsmodels, scikit-learn, Excel/VBA, SQL, Git, JavaScript, HTML/CSS\\
+\textbf{Languages:} & Korean and Spanish (native); English (fluent)
+\end{tabular}
+
+\end{document}

@@ -3,262 +3,122 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{enumitem}
+\usepackage{array}
+\usepackage{needspace}
 \usepackage{textcomp}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
 
 \textheight=10in
 \pagestyle{empty}
 \raggedright
-\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
 
-    %\renewcommand{\encodingdefault}{cg}
-%\renewcommand{\rmdefault}{lgrcmr}
+% Compact lists without creating a large gap before the first bullet.
+\setlist[itemize]{topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=0pt}
 
-\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
-
-% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\area} [2] {
-    \vspace*{-9pt}
-    \begin{verse}
-        \textbf{#1}   #2
-    \end{verse}
-}
-
-\newcommand{\lineunder} {
+\newcommand{\lineunder}{
     \vspace*{-8pt} \\
     \hspace*{-18pt} \hrulefill \\
 }
 
-\newcommand{\header} [1] {
+\newcommand{\header}[1]{
+    \Needspace{4\baselineskip}
     {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
     \vspace*{-6pt} \lineunder
 }
 
-\newcommand{\employer} [3] {
-    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+\newcommand{\role}[4]{
+    \Needspace{7\baselineskip}
+    \vspace{2pt}
+    \textbf{#1}\hfill #2\\
+    \textit{#3}\hfill #4\\[-3pt]
 }
-
-\newcommand{\contact} [3] {
-    \vspace*{-10pt}
-    \begin{center}
-        {\Huge \scshape {#1}}\\
-        #2 \\ #3
-    \end{center}
-    \vspace*{-8pt}
-}
-
-\newenvironment{achievements}{
-    \begin{list}
-        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
-    \end{list}
-}
-
-\newcommand{\schoolwithcourses} [4] {
-    \textbf{#1} #2 $\bullet$ #3\\
-    #4 \\
-    \vspace*{5pt}
-}
-
-\newcommand{\school} [4] {
-    \textbf{#1} #2 $\bullet$ #3\\
-    #4 \\
-}
-% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
-
-
 
 \begin{document}
 \vspace*{-40pt}
 
-    
-
-%==== Profile ====%
 \vspace*{-10pt}
 \begin{center}
-	{\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
-    1025 Lucerne Drive, Menasha, Wisconsin, 54952
+    {\Huge \scshape \textbf{Sangjun (Samuel) Ko}}\\
+    Menasha, Wisconsin
     | \href{mailto:samuelkocho.sk@gmail.com}{samuelkocho.sk@gmail.com}
     | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
-
-	  
 \end{center}
-
-%==== Education ====%
-\header{\textbf{Education}}
-\textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois \\
-Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 2025
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Mathematics Minor
-    \end{itemize}
-
-
-
-\vspace{2mm}
+\vspace*{-8pt}
 
 \header{\textbf{Work Experience}}
 \vspace{1mm}
 
-\textbf{Staffmark Group (on assignment at Kimberly-Clark)}
-\hfill Neenah, Wisconsin\\
-\textit{Statistician} \hfill June 2025 - Present\\
-\setlist{nolistsep}
+\role{Kimberly-Clark --- North America Family Care R\&D}{Neenah, Wisconsin}
+{Statistician (contract assignment through Staffmark Group)}{June 2025 -- Present}
 \begin{itemize}[noitemsep]
-    \item Built and deployed leakageReport, a Flask-based statistical reporting module that
-    replaced an outdated legacy system for mannequin leakage studies---now used by technicians
-    to generate mixed-model ANOVA/pairwise-comparison reports for stakeholders and researchers
-    \item Built and deployed 5 additional Python modules on an internal analytics platform,
-    including a Python port of an Excel/VBA X-ray absorbency analysis, two predictive-modeling
-    UIs for R\&D teams, and a mannequin database/intake tool now owned by a teammate
-    \item Lead or support 10+ concurrent Test Method Validation (TMV) and Gauge R\&R studies
-    (basis weight, tensile, caliper, tear strength, attribute inspection) across product lines,
-    translating bias/precision results into pass/fail recommendations and spec-limit proposals
-    \item Deliver \textasciitilde45 individually-requested mannequin leakage analyses/year
-    (\textasciitilde6/month); support DOE design for a Youth TMD screening method projected to
-    save the business unit millions by replacing multi-month consumer home-use tests
+  \item Serve as statistical lead for 15+ completed and ongoing Test Method Validation and measurement-system studies; develop study designs, sample-size recommendations, randomized and blinded run orders, acceptance criteria, analyses, and qualification recommendations with laboratory, test-method, product, and quality teams.
+  \item Analyze an average of six requested mannequin leakage studies per month across two business units, applying ANOVA, mixed models, least-squares means, multiple comparisons, and sensitivity analyses to interpret product performance and recommend follow-up actions.
+  \item Design and analyze experiments supporting test-method development, equipment qualification, prototype screening, material evaluation, competitive benchmarking, and consumer-study planning.
+  \item Designed and maintain a Python/Flask reporting application that replaced a retiring legacy workflow, allowing 50+ researchers and technicians to generate standardized statistical reports in minutes rather than waiting several days.
+  \item Build, deploy, and maintain six self-service analytics modules and serve as a primary technical contact for the platform, converting manual laboratory and predictive-modeling workflows into accessible tools for R\&D users.
+  \item Maintain and further train established product-performance models, coordinate laboratory testing to generate new data, design supporting experiments, analyze results, and deploy user interfaces that improve model visibility and access across R\&D.
 \end{itemize}
 
+\role{Applied Technologies for Learning in Arts \& Sciences}{Champaign, Illinois}
+{AI/ML Intern Team Leader}{January 2024 -- December 2024}
+\begin{itemize}[noitemsep]
+  \item Led five interns and coordinated priorities and deliverables with three managers while developing and evaluating Python machine-learning models using datasets containing 100,000+ records.
+  \item Applied regression, random forests, XGBoost, neural networks, BERT, and transformer-based methods to predictive-modeling and natural-language-processing projects.
+\end{itemize}
 
+\role{University of Illinois Urbana-Champaign}{Champaign, Illinois}
+{Undergraduate Course Assistant --- Data Science and Professional Statistics}{August 2023 -- May 2025}
+\begin{itemize}[noitemsep]
+  \item Mentored 300+ students in data science, statistical analysis, and consulting through interactive laboratories, project feedback, and individualized technical support.
+  \item Managed Git-based updates and edited instructional content for a learning platform serving 1,000+ students.
+\end{itemize}
 
-\vspace{1mm}
-
-\textbf{STAT107 Data Science Discovery} 
-\hfill Champaign, Illinois\\
-\textit{Undergraduate Course Assistant} \hfill August 2023 - May 2025\\
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-    \item Assisted over 300 students with fundamental data science concepts through interactive labs
-    \item Managed Git for learning platform modifications, 
-    benefiting 1000+ students; create, edit, and proofread course materials
-    \end{itemize}
-
-\vspace{1mm}
-
-% \textbf{STAT443 Professional Statistics} 
-% \hfill Champaign, Illinois\\
-% \textit{Undergraduate Course Assistant} \hfill January 2025 - May 2025\\
-% \setlist{nolistsep}
-%     \begin{itemize}[noitemsep]
-%         \item Grade assignments and provide feedback to 20+ students on statistical analysis and consulting using Canvas LMS
-%         \item Act as a client in mock projects, simulating real-world consulting challenges
-%    \end{itemize}
-    
-% \vspace{1mm}
-
-
-    
-\textbf{Applied Technologies for Learning in Arts \& Sciences}
-\hfill Champaign, Illinois\\
-\textit{AI/ML Intern Team Leader} \hfill January 2024 - December 2024\\
-\setlist{nolistsep}
-
-    \begin{itemize}[noitemsep]
-        \item Lead a team of 5 interns and collaborated closely with 3 managers in weekly meetings
-        \item Built ML models with 100,000+ data points using Python and advanced techniques like XGBoost and BERT
-    \end{itemize}
-
-\vspace{1mm}
-
-% \textbf{HappySneeze}
-% \hfill Remote\\
-% \textit{Market Research Intern} \hfill August 2024 - September 2024\\
-% \setlist{nolistsep}
-
-%     \begin{itemize}[noitemsep]
-%         \item Conducted market research and consumer trend analysis to enhance understanding of menopausal women's health needs 
-%         \item Led outreach and interviews with target demographics to gather insights on pelvic floor health        
-%         \item Synthesized findings into actionable strategies and presented recommendations to stakeholders   
-%     \end{itemize}
-
-%     \vspace{1mm}
-
-% \textbf{KM Internacional S.A.} \hfill Managua, Nicaragua\\
-% \textit{Intern} \hfill May 2023 - August 2023\\
-% \setlist{nolistsep}
-%     \begin{itemize}[noitemsep]
-% 	\item  Oversaw comprehensive inventory management and streamlined
-%      administrative tasks for a small textile company
-%     \item Lead a team of three workers to achieve a 98\% 
-%     accuracy rate in record-keeping 
-%     and a 15\% reduction in operational costs
-
-% \end{itemize}
-
+\role{HappySneeze}{Remote}
+{Market Research Intern}{August 2024 -- September 2024}
+\begin{itemize}[noitemsep]
+  \item Created an interview guide, conducted 10+ consumer interviews on menopause and pelvic-floor health needs, and synthesized findings into product and market recommendations.
+\end{itemize}
 
 \vspace*{1mm}
+\header{\textbf{Selected Projects and Award}}
 
-\header{\textbf{Projects/Awards}}
-
-\textbf{Graduation Prediction Model}
-% \hfill{September 2024 - December 2024}\\
-\setlist{nolistsep}
+\Needspace{5\baselineskip}
+\textbf{Graduation Prediction Model}\hfill September 2024 -- December 2024
 \begin{itemize}[noitemsep]
-    \item Increased AUC score from 0.65 to 0.82 by reducing noise in the dataset through feature 
-    engineering and outlier removal across 50,000+ student records
-    \item Built a Streamlit interface with 12 key predictors for
-    real-time predictions for university administrators
+  \item Increased model AUC from 0.65 to 0.82 through feature engineering and outlier review across 50,000+ student records.
+  \item Built a Streamlit interface using 12 key predictors to provide real-time graduation predictions for university administrators.
 \end{itemize}
 
-\textbf{3rd Place, 2024 COVID Information Commons Student Paper Challenge (Columbia University)} 
-% \hfill September 2024 \\
-\setlist{nolistsep}
-    \begin{itemize}[noitemsep]
-        \item Analyzed the socioeconomic and mental health impacts of COVID-19 in Mexico, identifying that 42\% of females and 40\% of young adults faced job loss
-        \item Proposed interventions to support vulnerable groups through geospatial and statistical analysis
-    \end{itemize}
-
-\textbf{Paraphrase Detection}
-% \hfill{July 2024}\\
-\setlist{nolistsep}
-\begin{itemize}[nolistsep]
-    \item Achieved 90\%+ accuracy in paraphrase detection using BERT, RoBERTa,
-     and SBERT models on the MRPC dataset
-    \item Developed a Gradio interface for real-time detection for easier evaluation 
-    of textual similarities
+\Needspace{5\baselineskip}
+\textbf{3rd Place, 2024 COVID Information Commons Student Paper Challenge}\hfill September 2024
+\begin{itemize}[noitemsep]
+  \item Analyzed socioeconomic and mental-health effects of COVID-19 in Mexico using statistical and geospatial methods and translated findings into intervention recommendations for vulnerable groups.
 \end{itemize}
-
-
-
-
 
 \vspace*{1mm}
+\header{\textbf{Education}}
 
-\header{\textbf{Skills}}
-\begin{tabular}{ l l }
-    Languages: & English (Fluent), Spanish (Native), Korean (Native), French (Basic), Chinese (Basic) \\
-    Computer: & Python (Advanced): Pandas, NumPy, Scikit-learn, TensorFlow, NLTK, Matplotlib \\
-    & R (Intermmediate): Tidyverse, ggplot2, dplyr, caret \\
-    & JMP (Intermmediate), Excel/VBA (Intermmediate), Git (Intermmediate), SAS (Intermmediate) \\
-    & SQL (Basic), Tableau (Basic), Office (Advanced) \\
-    Certificates: & Data Science Certificate, Coursera Business Analytics Certificate
+\Needspace{4\baselineskip}
+\textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois\\
+Bachelor of Science in Statistics, Mathematics Minor; GPA: 3.93/4.00\hfill January 2023 -- May 2025
+
+\vspace{2pt}
+\Needspace{4\baselineskip}
+\textbf{University of Michigan--Shanghai Jiao Tong University Joint Institute}\hfill Shanghai, China\\
+Coursework toward a B.E. in Mechanical Engineering; transferred to UIUC\hfill September 2019 -- December 2020\\[-1pt]
+First Class Scholarship
+
+\vspace*{1mm}
+\header{\textbf{Technical Skills}}
+\begin{tabular}{@{}l >{\raggedright\arraybackslash}p{0.79\textwidth}@{}}
+\textbf{Statistical methods:} & DOE, TMV, Gauge R\&R/MSA, mixed models, ANOVA, multiple comparisons, regression, attribute agreement, bias and precision analysis\\
+\textbf{Programming:} & Python, R, SQL, JavaScript, HTML/CSS, Excel/VBA\\
+\textbf{Libraries/frameworks:} & Pandas, NumPy, SciPy, statsmodels, scikit-learn, TensorFlow, Flask, Streamlit, Gradio, Matplotlib, Seaborn\\
+\textbf{Tools:} & JMP, Git, Docker, SAS, Tableau, Microsoft Office\\
+\textbf{Languages:} & Korean and Spanish (native); English (fluent)
 \end{tabular}
-
-
-
-\vspace{1mm}
-
-
-\header{\textbf{Community Service and Extracurricular Activities}}
-
-\textbf{Volunteer, Appleton Public Library}\hfill August 2025 - Present\\
-% \setlist{nolistsep}
-% \begin{itemize}[noitemsep]
-%     \item Support shelving/organization and ``Game On'' programs by guiding participants to games/activities and assisting with setup during sessions
-% \end{itemize}
-
-\textbf{Consultant in Illinois Business Consulting}\hfill September 2024 - December 2024\\
-% \setlist{nolistsep}
-% \begin{itemize}[nolistsep]
-%     \item Collaborating with interdisciplinary teams to deliver strategic solutions 
-%     for real-world business challenges, including market analysis, 
-%     operational optimization, and growth strategy, for clients ranging from Fortune 
-%     100 companies to nonprofits
-% \end{itemize} 
-
-
-
 
 \end{document}
