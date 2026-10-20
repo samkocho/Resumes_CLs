@@ -9,14 +9,14 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[hidelinks]{hyperref}
-\usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+\usepackage[left=0.75in,right=0.75in,bottom=0.7in,top=0.7in]{geometry}
 
-\textheight=10in
+\textheight=10.2in
 \pagestyle{empty}
 \raggedright
 
 % Compact lists without creating a large gap before the first bullet.
-\setlist[itemize]{topsep=2pt, partopsep=0pt, parsep=0pt, itemsep=0pt}
+\setlist[itemize]{topsep=1.5pt, partopsep=0pt, parsep=0pt, itemsep=0pt}
 
 \newcommand{\lineunder}{
     \vspace*{-8pt} \\
@@ -25,7 +25,7 @@
 
 \newcommand{\header}[1]{
     \Needspace{4\baselineskip}
-    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    {\hspace*{-18pt}\vspace*{5pt} \textsc{#1}}
     \vspace*{-6pt} \lineunder
 }
 
@@ -54,70 +54,47 @@
 \role{Kimberly-Clark --- North America Family Care R\&D}{Neenah, Wisconsin}
 {Statistician (contract assignment through Staffmark Group)}{June 2025 -- Present}
 \begin{itemize}[noitemsep]
-  \item Serve as statistical lead for 15+ completed and ongoing Test Method Validation and measurement-system studies; develop study designs, sample-size recommendations, randomized and blinded run orders, acceptance criteria, analyses, and qualification recommendations with laboratory, test-method, product, and quality teams.
-  \item Analyze an average of six requested mannequin leakage studies per month across two business units, applying ANOVA, mixed models, least-squares means, multiple comparisons, and sensitivity analyses to interpret product performance and recommend follow-up actions.
-  \item Design and analyze experiments supporting test-method development, equipment qualification, prototype screening, material evaluation, competitive benchmarking, and consumer-study planning.
-  \item Designed and maintain a Python/Flask reporting application that replaced a retiring legacy workflow, allowing 50+ researchers and technicians to generate standardized statistical reports in minutes rather than waiting several days.
-  \item Build, deploy, and maintain six self-service analytics modules and serve as a primary technical contact for the platform, converting manual laboratory and predictive-modeling workflows into accessible tools for R\&D users.
-  \item Maintain and further train established product-performance models, coordinate laboratory testing to generate new data, design supporting experiments, analyze results, and deploy user interfaces that improve model visibility and access across R\&D.
+  \item Rebuilt Kimberly-Clark's core diaper-leakage modeling engine from legacy SAS into a containerized Python/Flask web app; resolved whole-plot vs.\ sub-plot error structure partitioning in split-plot repeated-measures trials, achieving benchmark parity across 9 historical studies and reducing report generation time from days to minutes for 50+ researchers.
+  \item Designed balanced factorial equivalence studies ($N=96$) to qualify replacement abrasive mandrels across two instrument lines; detected a persistent 0.7--1.3\,mg negative measurement bias that disproved vendor equivalence, halting premature line adoption and driving supplier re-machining.
+  \item Designed multi-factor screening DOEs (including 96-run mechanical cart comparisons and 48-run fluid insult rate studies) to correlate accelerated benchtop testing with 3-month consumer home-use test (HUT) data, isolating key design drivers and screening prototypes in weeks.
+  \item Engineered an automated time-series data reduction pipeline in Python for transient sensor curves; modeled moisture dissipation dynamics to identify a 15--17 minute plateau, establishing an empirical 14--15 minute reading rule that eliminated operator timing variation.
+  \item Deployed six production web modules on Kimberly-Clark's internal cloud computing hub, operationalizing multivariate product-performance models (19 laboratory predictors $\to$ 8 consumer attributes) and automated Gage R\&R sample-size calculators into self-service tools for R\&D.
 \end{itemize}
 
-\role{Applied Technologies for Learning in Arts \& Sciences}{Champaign, Illinois}
+\role{Applied Technologies for Learning in Arts \& Sciences (ATLAS)}{Champaign, Illinois}
 {AI/ML Intern Team Leader}{January 2024 -- December 2024}
 \begin{itemize}[noitemsep]
-  \item Led five interns and coordinated priorities and deliverables with three managers while developing and evaluating Python machine-learning models using datasets containing 100,000+ records.
-  \item Applied regression, random forests, XGBoost, neural networks, BERT, and transformer-based methods to predictive-modeling and natural-language-processing projects.
+  \item Led five interns and coordinated deliverables with three managers while developing and evaluating Python machine-learning and NLP models (BERT, RoBERTa, XGBoost, Random Forests) using datasets containing 100,000+ records.
 \end{itemize}
 
 \role{University of Illinois Urbana-Champaign}{Champaign, Illinois}
 {Undergraduate Course Assistant --- Data Science and Professional Statistics}{August 2023 -- May 2025}
 \begin{itemize}[noitemsep]
-  \item Mentored 300+ students in data science, statistical analysis, and consulting through interactive laboratories, project feedback, and individualized technical support.
-  \item Managed Git-based updates and edited instructional content for a learning platform serving 1,000+ students.
-\end{itemize}
-
-\role{HappySneeze}{Remote}
-{Market Research Intern}{August 2024 -- September 2024}
-\begin{itemize}[noitemsep]
-  \item Created an interview guide, conducted 10+ consumer interviews on menopause and pelvic-floor health needs, and synthesized findings into product and market recommendations.
+  \item Mentored 300+ students in foundational data science and statistical consulting; managed Git-based instructional content for a learning platform serving 1,000+ students across STAT 107 and STAT 443.
 \end{itemize}
 
 \vspace*{1mm}
-\header{\textbf{Selected Projects and Award}}
+\header{\textbf{Selected Project}}
 
-\Needspace{5\baselineskip}
 \textbf{Graduation Prediction Model}\hfill September 2024 -- December 2024
 \begin{itemize}[noitemsep]
-  \item Increased model AUC from 0.65 to 0.82 through feature engineering and outlier review across 50,000+ student records.
-  \item Built a Streamlit interface using 12 key predictors to provide real-time graduation predictions for university administrators.
-\end{itemize}
-
-\Needspace{5\baselineskip}
-\textbf{3rd Place, 2024 COVID Information Commons Student Paper Challenge}\hfill September 2024
-\begin{itemize}[noitemsep]
-  \item Analyzed socioeconomic and mental-health effects of COVID-19 in Mexico using statistical and geospatial methods and translated findings into intervention recommendations for vulnerable groups.
+  \item Increased model AUC from 0.65 to 0.82 through feature engineering and outlier review across 50,000+ student records; built an interactive Streamlit interface using 12 key predictors to deliver real-time predictions for university administrators.
 \end{itemize}
 
 \vspace*{1mm}
 \header{\textbf{Education}}
 
-\Needspace{4\baselineskip}
 \textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois\\
-Bachelor of Science in Statistics, Mathematics Minor; GPA: 3.93/4.00\hfill January 2023 -- May 2025
-
-\vspace{2pt}
-\Needspace{4\baselineskip}
+Bachelor of Science in Statistics, Mathematics Minor; GPA: 3.93/4.00\hfill January 2023 -- May 2025\\[-1pt]
 \textbf{University of Michigan--Shanghai Jiao Tong University Joint Institute}\hfill Shanghai, China\\
-Coursework toward a B.E. in Mechanical Engineering; transferred to UIUC\hfill September 2019 -- December 2020\\[-1pt]
-First Class Scholarship
+Coursework toward a B.E. in Mechanical Engineering; transferred to UIUC; First Class Scholarship\hfill September 2019 -- December 2020
 
 \vspace*{1mm}
 \header{\textbf{Technical Skills}}
-\begin{tabular}{@{}l >{\raggedright\arraybackslash}p{0.79\textwidth}@{}}
-\textbf{Statistical methods:} & DOE, TMV, Gauge R\&R/MSA, mixed models, ANOVA, multiple comparisons, regression, attribute agreement, bias and precision analysis\\
-\textbf{Programming:} & Python, R, SQL, JavaScript, HTML/CSS, Excel/VBA\\
-\textbf{Libraries/frameworks:} & Pandas, NumPy, SciPy, statsmodels, scikit-learn, TensorFlow, Flask, Streamlit, Gradio, Matplotlib, Seaborn\\
-\textbf{Tools:} & JMP, Git, Docker, SAS, Tableau, Microsoft Office\\
+\begin{tabular}{@{}l >{\raggedright\arraybackslash}p{0.80\textwidth}@{}}
+\textbf{Statistical Methods:} & Design of Experiments (DOE), Test Method Validation (TMV), Gauge R\&R/MSA, mixed models, split-plot ANOVA, tolerance intervals, attribute agreement, bias/precision analysis\\
+\textbf{Programming \& Web:} & Python, R, SQL, JavaScript, HTML/CSS, Flask, Streamlit, Docker, Git, Excel/VBA\\
+\textbf{Libraries \& Tools:} & Pandas, NumPy, SciPy, statsmodels, scikit-learn, TensorFlow, JMP, SAS, Tableau\\
 \textbf{Languages:} & Korean and Spanish (native); English (fluent)
 \end{tabular}
 

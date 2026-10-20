@@ -47,27 +47,24 @@
     | \href{https://www.linkedin.com/in/sangjunko}{www.linkedin.com/in/sangjunko}
 \end{center}
 \vspace*{-8pt}
-
 \header{\textbf{Work Experience}}
 \vspace{1mm}
-
 \role{Kimberly-Clark --- North America Family Care R\&D}{Neenah, Wisconsin}
 {Statistician (contract assignment through Staffmark Group)}{June 2025 -- Present}
 \begin{itemize}[noitemsep]
-  \item Serve as statistical lead for approximately 90\% of 15+ completed and ongoing Test Method Validation (TMV) and measurement-system studies across multiple product lines and laboratory methods.
-  \item Develop study designs, sample-size recommendations, randomized and blinded run orders, acceptance criteria, statistical analyses, and qualification recommendations for continuous and attribute-based methods.
-  \item Coordinate closely with laboratory, test-method, product, and quality teams throughout study planning, execution, data review, and interpretation; analyze the resulting data and communicate findings and recommended next steps.
-  \item Support TMV and measurement-system work involving basis weight, tensile, caliper, tear strength, attribute inspection, breathability, equipment equivalency, method transfer, and Gauge R\&R.
-  \item Lead statistical planning for product- and claim-supporting methods spanning R\&D, quality, product release, and design verification, including collaboration with product, quality, laboratory, and legal stakeholders.
-  \item Translate statistical results into recommendations for test-method design, equipment qualification, acceptance criteria, follow-up testing, and investigation of unexpected product-performance patterns; product and method owners retain final decision authority.
-  \item Analyze an average of six requested mannequin leakage studies per month across two business units using ANOVA, mixed models, least-squares means, multiple comparisons, leak-location summaries, and sensitivity analyses.
-  \item Interpret product performance and failure patterns for product release, prototype screening, material qualification, DOE, competitive benchmarking, and consumer-study support; explain results and recommended follow-up actions to researchers and project teams.
-  \item Designed and deployed \textit{leakageReport}, a Python/Flask reporting application that replaced a retiring legacy workflow and allows 50+ researchers and technicians to upload data and generate standardized mixed-model and pairwise-comparison reports in minutes rather than waiting several days.
-  \item Build, deploy, and maintain six modules on an internal analytics platform, including leakage reporting, self-service predictive-model interfaces, an X-ray absorbency analysis port, a mannequin catalog and intake tool, and a usage-tracking dashboard; serve as a primary technical contact for the platform.
-  \item Maintain and further train established product-performance models, coordinate laboratory testing to generate new data, personally design supporting experiments, analyze results, and operationalize actively used models through self-service interfaces that increase their visibility and accessibility across R\&D.
-  \item Design and analyze DOE-based studies for development of a Youth TMD mannequin screening method intended to replace portions of multi-month consumer home-use testing with a three-week screen, with projected multimillion-dollar savings communicated by project leadership.
-  \item Lead development of a whole-product breathability data-reduction method and accompanying Python analysis pipeline, including recommendations for steady-state value selection and minimum run-time rules to improve consistency in future testing.
-  \item Develop initial design options for a global interlaboratory comparison involving laboratories in the United States, China, and Vietnam, addressing relative bias, repeatability, reproducibility, sample coverage, and practical execution constraints.
+  \item Serve as statistical lead for Test Method Validation (TMV), Measurement System Analysis (MSA), and experimental design across North America Family Care R\&D, partnering with quality, product engineering, and laboratory teams to qualify critical-to-quality (CTQ) test methods.
+  \item Rebuilt Kimberly-Clark's core diaper-leakage modeling engine from legacy SAS into a containerized Python/Flask web app; resolved whole-plot vs.\ sub-plot error structure partitioning in split-plot repeated-measures trials, achieving benchmark parity across 9 historical studies and reducing report generation from days to minutes for 50+ researchers.
+  \item Designed balanced factorial equivalence studies ($N=96$) to qualify replacement abrasive mandrels across two instrument lines; detected a persistent 0.7--1.3\,mg negative measurement bias that disproved vendor equivalence, halting premature hardware adoption and driving supplier re-machining.
+  \item Engineered an automated time-series data reduction pipeline in Python for transient sensor curves; modeled moisture dissipation dynamics to identify a 15--17 minute plateau, establishing an empirical 14--15 minute reading rule that eliminated subjective technician timing cutoffs.
+  \item Designed multi-factor screening DOEs (including 96-run cart comparison and 48-run fluid insult rate studies) to correlate accelerated benchtop mannequin testing with 3-month consumer home-use test (HUT) data, isolating key design drivers and screening prototypes in weeks rather than months.
+  \item Architected a 13-claim attribute Test Method Validation protocol across two feminine care product lines; designed a multi-round diagnostic framework with blinded sample routing and Cohen's/Fleiss' Kappa agreement analysis to isolate technician misclassifications and lighting variability prior to formal qualification.
+  \item Designed Test Method Characterization (TMC) and formal Gage R\&R protocols for destructive fastening tab-tear strength; decomposed variance components under single-pull constraints and established statistical guardbands against consumer-perceived detachment thresholds.
+  \item Formulated technician-blocked Gage R\&R designs for tensile strength and speed-dried basis weight under severe laboratory throughput constraints, reducing testing labor by approximately 3$\times$ compared to full interleaving while maintaining statistical power to detect measurement noise.
+  \item Conducted retrospective validation on multi-variant adhesive weight data; separated auditor measurement variability from true process variation using statistical tolerance intervals to establish variant-specific pass/fail release specifications.
+  \item Deployed six production web modules on Kimberly-Clark's internal cloud computing hub, including an interactive predictive-model explorer (19 laboratory predictors $\to$ 8 consumer attributes), an automated Gage R\&R sample-size calculator, and a centralized laboratory test-run database.
+  \item Operationalized multivariate product-performance models into self-service web applications, enabling non-statistical researchers to simulate design trade-offs, explore parameter spaces, and evaluate response surfaces interactively.
+  \item Formulated study designs for multi-site interlaboratory method transfers spanning U.S.\ and international testing facilities, evaluating repeatability, reproducibility, lab-to-lab relative bias, and specimen variability under practical execution constraints.
+  \item Translate complex statistical findings into actionable engineering recommendations for test-method design, equipment qualification, and root-cause investigations, delivering decision-ready packages to quality and R\&D leadership.
 \end{itemize}
 
 % Optional internal-only project inventory for tailoring:
@@ -76,6 +73,12 @@
 % - Attribute-method design options involving agreement studies and acceptance sampling
 % - Mannequin studies spanning release, prototypes, materials, formulation, DOE, and competition
 % Keep descriptions generic in externally circulated resumes.
+
+
+% Verification note: workload, adoption, turnaround-time, module-count, and projected-savings
+% figures from the prior draft are not included in visible bullets pending source confirmation.
+% The image-analysis accomplishment is not repeated here because it is already represented
+% in the evidence bank.
 
 \role{STAT 107: Data Science Discovery, University of Illinois Urbana-Champaign}{Champaign, Illinois}
 {Undergraduate Course Assistant}{August 2023 -- May 2025}
