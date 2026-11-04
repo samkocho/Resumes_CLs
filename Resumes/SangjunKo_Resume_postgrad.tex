@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{enumitem}
+\usepackage{array}
 \usepackage{textcomp}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -153,12 +154,10 @@
 
 %==== Skills ====%
 \header{\textbf{Skills}}
-\begin{tabular}{ l l }
-    Languages: & English (Fluent), Spanish (Native), Korean (Native)\\
-    Statistics: & Design of Experiments (DOE), Mixed Models/ANOVA, Multiple Comparisons, \\
-    & Gauge R\&R / MSA, Method Validation (TMV), Regression \& Predictive Modeling \\
-    Programming: & Python (Advanced): Pandas, NumPy, SciPy, statsmodels, Scikit-learn, TensorFlow, Matplotlib; \\
-    & R (Intermediate): Tidyverse, ggplot2, caret; SQL, SAS, Excel/VBA \\
+\begin{tabular}{@{}l >{\raggedright\arraybackslash}p{0.73\textwidth}@{}}
+    Languages: & English (Fluent), Spanish (Native), Korean (Native) \\
+    Statistics: & Design of Experiments (DOE), Mixed Models/ANOVA, Multiple Comparisons, Gauge R\&R / MSA, Method Validation (TMV), Regression \& Predictive Modeling \\
+    Programming: & Python (Advanced): Pandas, NumPy, SciPy, statsmodels, Scikit-learn, TensorFlow, Matplotlib; R (Intermediate): Tidyverse, ggplot2, caret; SQL, SAS, Excel/VBA \\
     Tools \& Web: & Flask, Docker, Git, JMP, HTML/CSS, JavaScript (Chart.js, Plotly), Tableau, Office \\
     Certificates: & Data Science Certificate, Coursera Business Analytics Certificate
 \end{tabular}
@@ -168,7 +167,7 @@
 %==== Education ====%
 \header{\textbf{Education}}
 \textbf{University of Illinois Urbana-Champaign}\hfill Champaign, Illinois \\
-Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 2025
+Bachelor of Science in Statistics (CGPA: 3.93/4.00) \hfill January 2023 - May 2025\\
 \setlist{nolistsep}
     \begin{itemize}[noitemsep]
         \item Mathematics Minor

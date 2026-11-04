@@ -1,0 +1,60 @@
+# RESUME FORMATTING FIXES SUMMARY
+Generated: 2024-11-01
+
+## Issues Fixed
+
+### 1. **EN2 Resume (SangjunKo_Resume_EN2.tex)**
+   - ✅ Fixed education entry where "September 2019 – December 2020" was breaking to overflow
+   - ✅ Restructured Michigan-Shanghai Jiao Tong University entry to keep dates on same line
+   - ✅ Adjusted Technical Skills table column width (0.80 → 0.74) to prevent overfull hbox warnings
+
+### 2. **ES Resume (SangjunKo_Resume_ES.tex)**  
+   - ✅ Fixed Spanish education entry with same issue as EN2
+   - ✅ Moved "transferencia a UIUC" to separate line for proper formatting
+
+### 3. **KC Resume (SangjunKo_Resume_KC.tex)**
+   - ✅ Adjusted Technical Skills table column width (0.80 → 0.72) to eliminate overfull warnings
+
+### 4. **TCC Resume (SangjunKo_Resume_TCC.tex)**
+   - ✅ Added missing `\usepackage{array}` (required for advanced table formatting)
+   - ✅ Converted Skills section from rigid `{ l l }` format to flexible `p{}` columns
+   - ✅ Consolidated multi-line skill entries into single lines with proper wrapping
+
+### 5. **PostGrad Resume (SangjunKo_Resume_postgrad.tex)**
+   - ✅ Added missing `\usepackage{array}` (required for advanced table formatting)
+   - ✅ Converted Skills section from rigid `{ l l }` format to flexible `p{}` columns
+   - ✅ Consolidated split lines into proper wrapped format
+
+### 6. **Other Resumes**
+   - ✅ CTA Resume: No issues found
+   - ✅ Appleton Library Resume: No issues found
+   - ✅ Daniela Barbosa Resume: No issues found
+
+## Verification Results
+
+All 8 resume files successfully compiled with ZERO formatting issues:
+- ✅ No overfull hbox warnings
+- ✅ No underfull hbox warnings
+- ✅ All dates properly aligned and visible
+- ✅ No text overflow or line breaking issues
+
+## Technical Changes Made
+
+1. **Education entries**: Split long descriptions to separate lines when combined with dates
+2. **Table formatting**: 
+   - Added missing `\usepackage{array}` where needed
+   - Converted rigid `{ l l }` tables to flexible `>{\raggedright\arraybackslash}p{width}` format
+   - Adjusted column widths from 0.80\textwidth to 0.72-0.74\textwidth for proper wrapping
+3. **Line breaking**: Used `\\` to force line breaks after long descriptions while keeping dates on structured lines
+
+## Files Modified
+
+- SangjunKo_Resume_EN2.tex
+- SangjunKo_Resume_ES.tex
+- SangjunKo_Resume_KC.tex
+- SangjunKo_Resume_TCC.tex
+- SangjunKo_Resume_postgrad.tex
+
+## Next Steps
+
+All PDFs are ready to use. The formatting issues that were causing text overflow (like the "September 2019 – December 2020" issue in EN2) have been resolved across all documents.
