@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1794160951 "SangjunKo_Resume_UIC_Stats.tex" "SangjunKo_Resume_UIC_Stats.pdf" "SangjunKo_Resume_UIC_Stats" 1794160952
+["pdflatex"] 1794166536 "SangjunKo_Resume_UIC_Stats.tex" "SangjunKo_Resume_UIC_Stats.pdf" "SangjunKo_Resume_UIC_Stats" 1794166537
   "/etc/texmf/web2c/texmf.cnf" 1792620492 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -97,9 +97,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1792620526 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1792620624 1405657 efdc36b1b24a13077db4be6b084e2f33 ""
-  "SangjunKo_Resume_UIC_Stats.aux" 1794160952 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
-  "SangjunKo_Resume_UIC_Stats.out" 1794160952 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "SangjunKo_Resume_UIC_Stats.tex" 1794160951 5766 2fe977c476cc8cbdf758108f891bb836 ""
+  "SangjunKo_Resume_UIC_Stats.aux" 1794166537 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
+  "SangjunKo_Resume_UIC_Stats.out" 1794166537 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "SangjunKo_Resume_UIC_Stats.tex" 1794166536 5760 ef13c010b5ab6b9beae2e9ac1c04f6e8 ""
   (generated)
   "SangjunKo_Resume_UIC_Stats.aux"
   "SangjunKo_Resume_UIC_Stats.log"
